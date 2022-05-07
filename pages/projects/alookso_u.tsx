@@ -22,7 +22,8 @@ const raw_data_array = [raw_data_2, raw_data_3, raw_data_4, raw_data_5];
 const App = () => {
   const [width, height] = useWindowSize();
   const [GD, setGD] = useState<GraphData & any>();
-  const [density, setDensity] = useState<string>("2");
+  const initialdensity = "2";
+  const [density, setDensity] = useState<string>(initialdensity);
 
   const router = useRouter();
   const onClick = () => {
@@ -46,17 +47,17 @@ const App = () => {
             nodeThreeObject={(node: any) => {
               const sprite = new SpriteText(node.id_name);
               sprite.color =
-                node.category <= 4
-                  ? node.category <= 2
+                node.category <= 3
+                  ? node.category <= 1
                     ? "red"
-                    : "purple"
+                    : "pink"
                   : "blue";
               sprite.textHeight = 9;
               return sprite;
             }}
             linkDirectionalParticles={1}
             linkDirectionalParticleWidth={1}
-            linkDirectionalParticleColor={() => "red"}
+            linkDirectionalParticleColor={() => "pink"}
             enableNodeDrag={false}
           />
         </div>
@@ -71,7 +72,7 @@ const App = () => {
           min="0"
           max="3"
           step="1"
-          defaultValue="2"
+          defaultValue={initialdensity}
           onChange={densityHandler}
         ></input>
         <p className="mt-16 text-white">Weight: {parseInt(density) + 2}</p>
