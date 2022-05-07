@@ -63,11 +63,11 @@ const App = () => {
         </div>
       </div>
       <div
-        className="flex flex-col items-center justify-center 
-      fixed right-6 w-30 top-[20%]"
+        className="flex flex-col items-center justify-start 
+      fixed right-0 top-[10%]"
       >
         <input
-          className=" border-0 cursor-pointer -rotate-90"
+          className="w-1/2 border-0 cursor-pointer -rotate-90"
           type="range"
           min="0"
           max="3"
@@ -75,13 +75,13 @@ const App = () => {
           defaultValue={initialdensity}
           onChange={densityHandler}
         ></input>
-        <p className="mt-16 text-white">Weight: {parseInt(density) + 2}</p>
+        <p className="mt-6 text-white">Weight: {parseInt(density) + 2}</p>
       </div>
 
       <button
         className="fixed hover:bg-purple-500 border-0 aspect-square 
         border-transparent transition-colors cursor-pointer 
-        bottom-12 right-12 shadow-xl bg-purple-700 rounded-full 
+        bottom-[5%] right-[5%] shadow-xl bg-purple-700 rounded-full 
         w-20 flex items-center justify-center text-white"
         onClick={() => {
           const data_load: GraphData & any = {
@@ -95,7 +95,7 @@ const App = () => {
       </button>
       <Link href="/">
         <a
-          className="fixed top-8 left-4 w-20 font-medium text-purple-700
+          className="fixed top-[2%] left-[2%] w-20 font-medium text-purple-700
         hover:text-purple-500 flex items-center justify-center cursor-pointer"
           onClick={() => {
             onClick;
