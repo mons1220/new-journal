@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </div>
       <div className="grid gap-14 lg:grid-cols-2 xl:grid-cols-3 px-10 py-10">
         {[...Array(1)].map((_, i) => (
-          <Link href="/projects/alookso_u">
+          <Link key={i} href="/projects/alookso_u">
             <div className="shadow-lg rounded-xl border-2 hover:ring-2 hover:ring-purple-700 cursor-pointer">
               <div className="flex items-center justify-center m-5">
                 <img
