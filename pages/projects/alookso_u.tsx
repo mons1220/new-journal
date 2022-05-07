@@ -22,7 +22,7 @@ const raw_data_array = [raw_data_2, raw_data_3, raw_data_4, raw_data_5];
 const App = () => {
   const [width, height] = useWindowSize();
   const [GD, setGD] = useState<GraphData & any>();
-  const [density, setDensity] = useState<string>("3");
+  const [density, setDensity] = useState<string>("2");
 
   const router = useRouter();
   const onClick = () => {
