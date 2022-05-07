@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import alookso_u_img from "../public/static/img/project1_alookso_u.png";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +18,7 @@ const Home: NextPage = () => {
                 <Image
                   className="rounded-xl"
                   layout="fill"
-                  src={alookso_u_img}
+                  src="/static/images/project1_alookso_u.PNG"
                   alt=""
                 />
               </div>
