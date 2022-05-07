@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                   layout="fill"
                   width="200"
                   height="200"
-                  src="/static/img/project1_alookso_u.png"
+                  src="/project1_alookso_u.png"
                   alt="logo"
                 />
               </div>
