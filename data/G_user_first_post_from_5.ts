@@ -12,7 +12,7 @@ const data: GraphData & any = {
       like_mean: 3.1033653846153846,
       like_sum: 2582,
       id_name: "\ud558\ub9ac",
-      category: "\ud558\ub9ac",
+      category: 3,
       id: "/users/A6tEeV",
     },
     {
@@ -25,7 +25,7 @@ const data: GraphData & any = {
       like_mean: 4.230320699708455,
       like_sum: 1451,
       id_name: "30\ub300 \uc544\uc800\uc528",
-      category: "30\ub300 \uc544\uc800\uc528",
+      category: 2,
       id: "/users/N4tnP9",
     },
     {
@@ -38,7 +38,7 @@ const data: GraphData & any = {
       like_mean: 3.1737451737451736,
       like_sum: 2466,
       id_name: "\uc18c\uc18c",
-      category: "\uc18c\uc18c",
+      category: 4,
       id: "/users/51tE2X",
     },
     {
@@ -51,7 +51,7 @@ const data: GraphData & any = {
       like_mean: 4.35450643776824,
       like_sum: 5073,
       id_name: "\uc544\ub4e4\ub458\uc5c4\ub9c8",
-      category: "\uc544\ub4e4\ub458\uc5c4\ub9c8",
+      category: 1,
       id: "/users/VAtmrg",
     },
     {
@@ -64,7 +64,7 @@ const data: GraphData & any = {
       like_mean: 3.300531914893617,
       like_sum: 1241,
       id_name: "\uc7a1\ubd80",
-      category: "\uc7a1\ubd80",
+      category: 3,
       id: "/users/let2QK",
     },
     {
@@ -77,7 +77,7 @@ const data: GraphData & any = {
       like_mean: 5.49820788530466,
       like_sum: 1534,
       id_name: "365\ub2e4\uc774\uc5b4\ud130",
-      category: "365\ub2e4\uc774\uc5b4\ud130",
+      category: 2,
       id: "/users/zntO7W",
     },
     {
@@ -90,7 +90,7 @@ const data: GraphData & any = {
       like_mean: 18.73,
       like_sum: 5619,
       id_name: "\ub8e8\uc2dc\uc544",
-      category: "\ub8e8\uc2dc\uc544",
+      category: 1,
       id: "/users/VAtRV6",
     },
     {
@@ -103,7 +103,7 @@ const data: GraphData & any = {
       like_mean: 3.9328703703703702,
       like_sum: 3398,
       id_name: "\ud55c\uc138\uacc4",
-      category: "\ud55c\uc138\uacc4",
+      category: 3,
       id: "/users/JptEAR",
     },
     {
@@ -116,7 +116,7 @@ const data: GraphData & any = {
       like_mean: 3.3333333333333335,
       like_sum: 200,
       id_name: "\ub529\uad6c\ub8e8\ub8e8",
-      category: "\ub529\uad6c\ub8e8\ub8e8",
+      category: 3,
       id: "/users/9YteaB",
     },
     {
@@ -129,7 +129,7 @@ const data: GraphData & any = {
       like_mean: 7.30126582278481,
       like_sum: 2884,
       id_name: "\uc5f0\ud478\ub978",
-      category: "\uc5f0\ud478\ub978",
+      category: 2,
       id: "/users/mJtgrr",
     },
     {
@@ -142,7 +142,7 @@ const data: GraphData & any = {
       like_mean: 7.177777777777778,
       like_sum: 1292,
       id_name: "\ub3fc\uc9c0\uac10\uc790",
-      category: "\ub3fc\uc9c0\uac10\uc790",
+      category: 3,
       id: "/users/Wat7Vj",
     },
     {
@@ -155,7 +155,7 @@ const data: GraphData & any = {
       like_mean: 4.86070215175538,
       like_sum: 4292,
       id_name: "\ube14\ub808\uc774\ub4dc",
-      category: "\ube14\ub808\uc774\ub4dc",
+      category: 1,
       id: "/users/JptLln",
     },
     {
@@ -168,7 +168,7 @@ const data: GraphData & any = {
       like_mean: 5.02588996763754,
       like_sum: 3106,
       id_name: "\ubbf8\uad6d\uc8fc\uc2dd\ub18d\uc0ac\uafbc",
-      category: "\ubbf8\uad6d\uc8fc\uc2dd\ub18d\uc0ac\uafbc",
+      category: 4,
       id: "/users/N4t1e1",
     },
     {
@@ -181,7 +181,7 @@ const data: GraphData & any = {
       like_mean: 4.5528455284552845,
       like_sum: 560,
       id_name: "\ub3d9\uadf8\ub9ac~~",
-      category: "\ub3d9\uadf8\ub9ac~~",
+      category: 3,
       id: "/users/let2m9",
     },
     {
@@ -194,7 +194,7 @@ const data: GraphData & any = {
       like_mean: 3.690671031096563,
       like_sum: 2255,
       id_name: "\uc740\ube44",
-      category: "\uc740\ube44",
+      category: 3,
       id: "/users/a3t0mK",
     },
     {
@@ -207,7 +207,7 @@ const data: GraphData & any = {
       like_mean: 7.073170731707317,
       like_sum: 1160,
       id_name: "\ud759\uc218\uc800\uc5d0\uc11c \uc740\uc218\uc800\uae4c\uc9c0",
-      category: "\ud759\uc218\uc800\uc5d0\uc11c \uc740\uc218\uc800\uae4c\uc9c0",
+      category: 3,
       id: "/users/YEtAM9",
     },
     {
@@ -220,7 +220,7 @@ const data: GraphData & any = {
       like_mean: 9.081967213114755,
       like_sum: 1108,
       id_name: "50\ub300 \uac00\uc7a5",
-      category: "50\ub300 \uac00\uc7a5",
+      category: 3,
       id: "/users/1Rtkzj",
     },
     {
@@ -233,7 +233,7 @@ const data: GraphData & any = {
       like_mean: 5.473867595818815,
       like_sum: 1571,
       id_name: "\ub958\ubd80\uc790",
-      category: "\ub958\ubd80\uc790",
+      category: 3,
       id: "/users/PntP3W",
     },
     {
@@ -246,7 +246,7 @@ const data: GraphData & any = {
       like_mean: 3.512143611404435,
       like_sum: 3326,
       id_name: "Liam Young",
-      category: "Liam Young",
+      category: 3,
       id: "/users/JptwzD",
     },
     {
@@ -259,7 +259,7 @@ const data: GraphData & any = {
       like_mean: 5.767123287671233,
       like_sum: 421,
       id_name: "\ubd88\uaf43\uc0c1\ub0a8\uc790",
-      category: "\ubd88\uaf43\uc0c1\ub0a8\uc790",
+      category: 0,
       id: "/users/jlt26d",
     },
     {
@@ -272,7 +272,7 @@ const data: GraphData & any = {
       like_mean: 4.16,
       like_sum: 208,
       id_name: "Alice",
-      category: "Alice",
+      category: 3,
       id: "/users/mJtOPZ",
     },
     {
@@ -285,7 +285,7 @@ const data: GraphData & any = {
       like_mean: 14.32775119617225,
       like_sum: 5989,
       id_name: "Homeeun",
-      category: "Homeeun",
+      category: 0,
       id: "/users/81RtBa",
     },
     {
@@ -298,7 +298,7 @@ const data: GraphData & any = {
       like_mean: 23.076923076923077,
       like_sum: 2400,
       id_name: "\uae40\ubbfc\uc900",
-      category: "\uae40\ubbfc\uc900",
+      category: 0,
       id: "/users/bGDtmX",
     },
     {
@@ -311,7 +311,7 @@ const data: GraphData & any = {
       like_mean: 4.993975903614458,
       like_sum: 3316,
       id_name: "\ub2ec\ube5b\uc18c\ub144",
-      category: "\ub2ec\ube5b\uc18c\ub144",
+      category: 4,
       id: "/users/N4tg4M",
     },
     {
@@ -324,7 +324,7 @@ const data: GraphData & any = {
       like_mean: 12.59073359073359,
       like_sum: 3261,
       id_name: "\ube45\ub9e5\uc384\ud2b8",
-      category: "\ube45\ub9e5\uc384\ud2b8",
+      category: 0,
       id: "/users/51t5r4",
     },
     {
@@ -337,7 +337,7 @@ const data: GraphData & any = {
       like_mean: 19.42197802197802,
       like_sum: 8837,
       id_name: "\ubc15\ud604\uc548",
-      category: "\ubc15\ud604\uc548",
+      category: 0,
       id: "/users/WatpzA",
     },
     {
@@ -350,7 +350,7 @@ const data: GraphData & any = {
       like_mean: 48.50292397660819,
       like_sum: 8294,
       id_name: "alookso \uc5d0\ub514\ud130\ud300",
-      category: "alookso \uc5d0\ub514\ud130\ud300",
+      category: 0,
       id: "/users/x4WtnB",
     },
     {
@@ -363,7 +363,7 @@ const data: GraphData & any = {
       like_mean: 31.0,
       like_sum: 1240,
       id_name: "\uc724\uc2e0\uc601",
-      category: "\uc724\uc2e0\uc601",
+      category: 2,
       id: "/users/JptrPO",
     },
     {
@@ -376,7 +376,7 @@ const data: GraphData & any = {
       like_mean: 6.830508474576271,
       like_sum: 403,
       id_name: "\uc774\ubbfc\uc218",
-      category: "\uc774\ubbfc\uc218",
+      category: 0,
       id: "/users/GDt1oy",
     },
     {
@@ -389,7 +389,7 @@ const data: GraphData & any = {
       like_mean: 18.78688524590164,
       like_sum: 1146,
       id_name: "\ucd5c\ud76c\uc724",
-      category: "\ucd5c\ud76c\uc724",
+      category: 0,
       id: "/users/8XGtke",
     },
     {
@@ -402,7 +402,7 @@ const data: GraphData & any = {
       like_mean: 9.722713864306785,
       like_sum: 3296,
       id_name: "\ubaac\uc2a4",
-      category: "\ubaac\uc2a4",
+      category: 0,
       id: "/users/xprtP9",
     },
     {
@@ -415,7 +415,7 @@ const data: GraphData & any = {
       like_mean: 20.30827067669173,
       like_sum: 2701,
       id_name: "Midsommar",
-      category: "Midsommar",
+      category: 1,
       id: "/users/1RtAP2",
     },
     {
@@ -428,7 +428,7 @@ const data: GraphData & any = {
       like_mean: 15.85012285012285,
       like_sum: 6451,
       id_name: "\ubc15 \uc2a4\ud14c\ud30c\ub178",
-      category: "\ubc15 \uc2a4\ud14c\ud30c\ub178",
+      category: 0,
       id: "/users/dQtldD",
     },
     {
@@ -441,7 +441,7 @@ const data: GraphData & any = {
       like_mean: 12.26896551724138,
       like_sum: 3558,
       id_name: "\ucd5c\uae68\ube44",
-      category: "\ucd5c\uae68\ube44",
+      category: 1,
       id: "/users/XGtLrg",
     },
     {
@@ -454,7 +454,7 @@ const data: GraphData & any = {
       like_mean: 17.3841059602649,
       like_sum: 2625,
       id_name: "\uba4b\uc900\uc624\ube60",
-      category: "\uba4b\uc900\uc624\ube60",
+      category: 0,
       id: "/users/9YtZzr",
     },
     {
@@ -467,7 +467,7 @@ const data: GraphData & any = {
       like_mean: 19.752747252747252,
       like_sum: 3595,
       id_name: "\uad8c\uc2b9\uc900",
-      category: "\uad8c\uc2b9\uc900",
+      category: 0,
       id: "/users/q73t5E",
     },
     {
@@ -480,7 +480,7 @@ const data: GraphData & any = {
       like_mean: 12.063157894736841,
       like_sum: 2292,
       id_name: "\uc720\ub2c8",
-      category: "\uc720\ub2c8",
+      category: 0,
       id: "/users/LZtOeR",
     },
     {
@@ -493,7 +493,7 @@ const data: GraphData & any = {
       like_mean: 12.542735042735043,
       like_sum: 8805,
       id_name: "bookmaniac",
-      category: "bookmaniac",
+      category: 0,
       id: "/users/WatRGd",
     },
     {
@@ -506,7 +506,7 @@ const data: GraphData & any = {
       like_mean: 31.0,
       like_sum: 806,
       id_name: "\ud760\uc880\ubb34",
-      category: "\ud760\uc880\ubb34",
+      category: 0,
       id: "/users/8r9t1d",
     },
     {
@@ -519,7 +519,7 @@ const data: GraphData & any = {
       like_mean: 17.65289256198347,
       like_sum: 4272,
       id_name: "\uae40\uc7ac\uacbd",
-      category: "\uae40\uc7ac\uacbd",
+      category: 0,
       id: "/users/XGtJ9z",
     },
     {
@@ -532,7 +532,7 @@ const data: GraphData & any = {
       like_mean: 25.419753086419753,
       like_sum: 4118,
       id_name: "alookso \ub370\uc774\ud130\ud300",
-      category: "alookso \ub370\uc774\ud130\ud300",
+      category: 0,
       id: "/users/bA6tp1",
     },
     {
@@ -545,7 +545,7 @@ const data: GraphData & any = {
       like_mean: 13.397515527950311,
       like_sum: 2157,
       id_name: "\uc870\ud558\ub098",
-      category: "\uc870\ud558\ub098",
+      category: 0,
       id: "/users/k6tv2r",
     },
     {
@@ -558,7 +558,7 @@ const data: GraphData & any = {
       like_mean: 24.1,
       like_sum: 1687,
       id_name: "\uae40\uc9c4\uc6c5",
-      category: "\uae40\uc9c4\uc6c5",
+      category: 0,
       id: "/users/qKktlq",
     },
     {
@@ -571,7 +571,7 @@ const data: GraphData & any = {
       like_mean: 15.362244897959183,
       like_sum: 3011,
       id_name: "\uc2e4\ubc30",
-      category: "\uc2e4\ubc30",
+      category: 0,
       id: "/users/20tgBY",
     },
     {
@@ -584,7 +584,7 @@ const data: GraphData & any = {
       like_mean: 6.014109347442681,
       like_sum: 3410,
       id_name: "\uc774\ud300\uc7a5",
-      category: "\uc774\ud300\uc7a5",
+      category: 0,
       id: "/users/Ogt2Oz",
     },
     {
@@ -597,7 +597,7 @@ const data: GraphData & any = {
       like_mean: 7.817796610169491,
       like_sum: 1845,
       id_name: "\uc11c\ud154\ub77c",
-      category: "\uc11c\ud154\ub77c",
+      category: 0,
       id: "/users/dQtMJB",
     },
     {
@@ -610,7 +610,7 @@ const data: GraphData & any = {
       like_mean: 12.023809523809524,
       like_sum: 505,
       id_name: "\uc5f0\ud0a4",
-      category: "\uc5f0\ud0a4",
+      category: 0,
       id: "/users/851toJ",
     },
     {
@@ -623,7 +623,7 @@ const data: GraphData & any = {
       like_mean: 3.0035211267605635,
       like_sum: 853,
       id_name: "Jeee",
-      category: "Jeee",
+      category: 1,
       id: "/users/wVtjmE",
     },
     {
@@ -636,7 +636,7 @@ const data: GraphData & any = {
       like_mean: 22.610169491525422,
       like_sum: 1334,
       id_name: "alookso \ube0c\ub9ac\ud504",
-      category: "alookso \ube0c\ub9ac\ud504",
+      category: 1,
       id: "/users/0Btk1l",
     },
     {
@@ -649,7 +649,7 @@ const data: GraphData & any = {
       like_mean: 11.973684210526315,
       like_sum: 910,
       id_name: "\uba5c\ud305\uac00\ub4e0",
-      category: "\uba5c\ud305\uac00\ub4e0",
+      category: 1,
       id: "/users/51tVWP",
     },
     {
@@ -662,7 +662,7 @@ const data: GraphData & any = {
       like_mean: 5.785714285714286,
       like_sum: 162,
       id_name: "Kug S. Lee",
-      category: "Kug S. Lee",
+      category: 0,
       id: "/users/xwVtoy",
     },
     {
@@ -675,7 +675,7 @@ const data: GraphData & any = {
       like_mean: 2.528735632183908,
       like_sum: 220,
       id_name: "Nana",
-      category: "Nana",
+      category: 2,
       id: "/users/a3taMK",
     },
     {
@@ -688,7 +688,7 @@ const data: GraphData & any = {
       like_mean: 5.405228758169935,
       like_sum: 1654,
       id_name: "PHBONLINE",
-      category: "PHBONLINE",
+      category: 3,
       id: "/users/6mtyaa",
     },
     {
@@ -701,7 +701,7 @@ const data: GraphData & any = {
       like_mean: 3.0245901639344264,
       like_sum: 369,
       id_name: "\ud574\ubc14\ub77c\uae30",
-      category: "\ud574\ubc14\ub77c\uae30",
+      category: 3,
       id: "/users/let2o9",
     },
     {
@@ -714,7 +714,7 @@ const data: GraphData & any = {
       like_mean: 7.935897435897436,
       like_sum: 1238,
       id_name: "\ub450\ub9ac\ub450\ub9ac",
-      category: "\ub450\ub9ac\ub450\ub9ac",
+      category: 2,
       id: "/users/RKtZjZ",
     },
     {
@@ -727,7 +727,7 @@ const data: GraphData & any = {
       like_mean: 1.625,
       like_sum: 78,
       id_name: "\uc721\uc2ed\uc138",
-      category: "\uc721\uc2ed\uc138",
+      category: 5,
       id: "/users/ZBtlZv",
     },
     {
@@ -740,7 +740,7 @@ const data: GraphData & any = {
       like_mean: 10.38082191780822,
       like_sum: 3789,
       id_name: "\ub044\uc801\ub044\uc801",
-      category: "\ub044\uc801\ub044\uc801",
+      category: 3,
       id: "/users/mJtjar",
     },
     {
@@ -753,7 +753,7 @@ const data: GraphData & any = {
       like_mean: 7.213296398891967,
       like_sum: 2604,
       id_name: "\uc2ac\ub85c\uc6b0 \ub77c\uc774\ud504",
-      category: "\uc2ac\ub85c\uc6b0 \ub77c\uc774\ud504",
+      category: 4,
       id: "/users/3MtoEg",
     },
     {
@@ -766,7 +766,7 @@ const data: GraphData & any = {
       like_mean: 2.3518518518518516,
       like_sum: 127,
       id_name: "\ud669\uc815\uc219",
-      category: "\ud669\uc815\uc219",
+      category: 4,
       id: "/users/N4t1e7",
     },
     {
@@ -779,7 +779,7 @@ const data: GraphData & any = {
       like_mean: 12.549618320610687,
       like_sum: 1644,
       id_name: "\ubc15\uc6b0\uc11d",
-      category: "\ubc15\uc6b0\uc11d",
+      category: 4,
       id: "/users/prt7J3",
     },
     {
@@ -792,7 +792,7 @@ const data: GraphData & any = {
       like_mean: 32.40350877192982,
       like_sum: 1847,
       id_name: "\ubbf8\ud61c",
-      category: "\ubbf8\ud61c",
+      category: 5,
       id: "/users/eNtQOY",
     },
     {
@@ -805,7 +805,7 @@ const data: GraphData & any = {
       like_mean: 9.625,
       like_sum: 231,
       id_name: "DunDun C",
-      category: "DunDun C",
+      category: 5,
       id: "/users/Bet5Jd",
     },
     {
@@ -818,7 +818,7 @@ const data: GraphData & any = {
       like_mean: 16.5,
       like_sum: 2112,
       id_name: "\uc190 \uc601",
-      category: "\uc190 \uc601",
+      category: 3,
       id: "/users/ozt6ON",
     },
     {
@@ -831,7 +831,7 @@ const data: GraphData & any = {
       like_mean: 4.91699604743083,
       like_sum: 2488,
       id_name: "\uc0e4\ub2c8\ub9d8",
-      category: "\uc0e4\ub2c8\ub9d8",
+      category: 1,
       id: "/users/9YtWQ4",
     },
     {
@@ -844,7 +844,7 @@ const data: GraphData & any = {
       like_mean: 40.53846153846154,
       like_sum: 527,
       id_name: "\uc7ac\ub791",
-      category: "\uc7ac\ub791",
+      category: 0,
       id: "/users/bvZtQG",
     },
     {
@@ -857,7 +857,7 @@ const data: GraphData & any = {
       like_mean: 7.4088397790055245,
       like_sum: 1341,
       id_name: "\uc815\ud558\ub098",
-      category: "\uc815\ud558\ub098",
+      category: 4,
       id: "/users/mJtLAK",
     },
     {
@@ -870,7 +870,7 @@ const data: GraphData & any = {
       like_mean: 6.758465011286682,
       like_sum: 2994,
       id_name: "\uc724\uc11d\ud765",
-      category: "\uc724\uc11d\ud765",
+      category: 1,
       id: "/users/oztvjl",
     },
     {
@@ -883,7 +883,7 @@ const data: GraphData & any = {
       like_mean: 3.2303206997084546,
       like_sum: 1108,
       id_name: "\ucd08\ub85d\ucc3d",
-      category: "\ucd08\ub85d\ucc3d",
+      category: 1,
       id: "/users/JptM5r",
     },
     {
@@ -896,7 +896,7 @@ const data: GraphData & any = {
       like_mean: 2.490740740740741,
       like_sum: 269,
       id_name: "\ubaa8\ub9ac\ud654",
-      category: "\ubaa8\ub9ac\ud654",
+      category: 1,
       id: "/users/vZtWmL",
     },
     {
@@ -909,7 +909,7 @@ const data: GraphData & any = {
       like_mean: 3.077910174152154,
       like_sum: 3358,
       id_name: "\uc2a4\ubbf8\uc2a4",
-      category: "\uc2a4\ubbf8\uc2a4",
+      category: 1,
       id: "/users/dQtJp7",
     },
     {
@@ -922,7 +922,7 @@ const data: GraphData & any = {
       like_mean: 1.3541666666666667,
       like_sum: 65,
       id_name: "\ub3c4\uc820",
-      category: "\ub3c4\uc820",
+      category: 1,
       id: "/users/A6tZpv",
     },
     {
@@ -935,7 +935,7 @@ const data: GraphData & any = {
       like_mean: 4.732057416267943,
       like_sum: 989,
       id_name: "\ud68c\uadc0\uc5d0 \uc2e4\ud328\ud55c \ubb34\uba85\ucfe4",
-      category: "\ud68c\uadc0\uc5d0 \uc2e4\ud328\ud55c \ubb34\uba85\ucfe4",
+      category: 1,
       id: "/users/JptBLW",
     },
     {
@@ -948,7 +948,7 @@ const data: GraphData & any = {
       like_mean: 4.229629629629629,
       like_sum: 571,
       id_name: "\uc0c1\ud76c&\ud55c\uacb0",
-      category: "\uc0c1\ud76c&\ud55c\uacb0",
+      category: 0,
       id: "/users/RKtd4D",
     },
     {
@@ -961,7 +961,7 @@ const data: GraphData & any = {
       like_mean: 8.183333333333334,
       like_sum: 1473,
       id_name: "\uc83c\uc83c",
-      category: "\uc83c\uc83c",
+      category: 0,
       id: "/users/vZtnLL",
     },
     {
@@ -974,7 +974,7 @@ const data: GraphData & any = {
       like_mean: 23.125,
       like_sum: 555,
       id_name: "\uc11c\uc5f0",
-      category: "\uc11c\uc5f0",
+      category: 0,
       id: "/users/JptQkn",
     },
     {
@@ -987,7 +987,7 @@ const data: GraphData & any = {
       like_mean: 5.47741935483871,
       like_sum: 849,
       id_name: "\uc9c0\ud76c",
-      category: "\uc9c0\ud76c",
+      category: 0,
       id: "/users/EzteOE",
     },
     {
@@ -1000,7 +1000,7 @@ const data: GraphData & any = {
       like_mean: 2.5949367088607596,
       like_sum: 205,
       id_name: "fourleaf clover",
-      category: "fourleaf clover",
+      category: 5,
       id: "/users/N4to5L",
     },
     {
@@ -1013,7 +1013,7 @@ const data: GraphData & any = {
       like_mean: 20.256410256410255,
       like_sum: 1580,
       id_name: "\uae40\uc0c1\ud604",
-      category: "\uae40\uc0c1\ud604",
+      category: 0,
       id: "/users/ZBtyEa",
     },
     {
@@ -1026,7 +1026,7 @@ const data: GraphData & any = {
       like_mean: 44.51724137931034,
       like_sum: 2582,
       id_name: "alookso \uc2dc\ub9ac\uc988",
-      category: "alookso \uc2dc\ub9ac\uc988",
+      category: 4,
       id: "/users/oztjE7",
     },
     {
@@ -1039,7 +1039,7 @@ const data: GraphData & any = {
       like_mean: 1.2835820895522387,
       like_sum: 86,
       id_name: "nokchon",
-      category: "nokchon",
+      category: 2,
       id: "/users/ozt7ml",
     },
     {
@@ -1052,7 +1052,7 @@ const data: GraphData & any = {
       like_mean: 2.64,
       like_sum: 66,
       id_name: "GJ\ud544\uc2a4",
-      category: "GJ\ud544\uc2a4",
+      category: 2,
       id: "/users/letE1Q",
     },
     {
@@ -1065,7 +1065,7 @@ const data: GraphData & any = {
       like_mean: 2.4615384615384617,
       like_sum: 160,
       id_name: "\uac15\uc2e0\uc625",
-      category: "\uac15\uc2e0\uc625",
+      category: 2,
       id: "/users/prt055",
     },
     {
@@ -1078,7 +1078,7 @@ const data: GraphData & any = {
       like_mean: 6.943181818181818,
       like_sum: 611,
       id_name: "\uace0\ubbfc\uc911",
-      category: "\uace0\ubbfc\uc911",
+      category: 0,
       id: "/users/zntPnr",
     },
     {
@@ -1091,7 +1091,7 @@ const data: GraphData & any = {
       like_mean: 2.910891089108911,
       like_sum: 588,
       id_name: "\uace0\uc9d1 \ub098\uadf8\ub124",
-      category: "\uace0\uc9d1 \ub098\uadf8\ub124",
+      category: 0,
       id: "/users/VAt6ak",
     },
     {
@@ -1104,7 +1104,7 @@ const data: GraphData & any = {
       like_mean: 7.842696629213483,
       like_sum: 1396,
       id_name: "\uc194\ub9bd",
-      category: "\uc194\ub9bd",
+      category: 5,
       id: "/users/vZtokp",
     },
     {
@@ -1117,7 +1117,7 @@ const data: GraphData & any = {
       like_mean: 2.1882352941176473,
       like_sum: 372,
       id_name: "\uacf0\ub3cc\uc774\uca61",
-      category: "\uacf0\ub3cc\uc774\uca61",
+      category: 1,
       id: "/users/k6tVrd",
     },
     {
@@ -1130,7 +1130,7 @@ const data: GraphData & any = {
       like_mean: 13.83673469387755,
       like_sum: 1356,
       id_name: "\uad34\ubd80\ub8e8",
-      category: "\uad34\ubd80\ub8e8",
+      category: 0,
       id: "/users/51tOok",
     },
     {
@@ -1143,7 +1143,7 @@ const data: GraphData & any = {
       like_mean: 37.2,
       like_sum: 186,
       id_name: "\ubc15\uc724\uacbd",
-      category: "\ubc15\uc724\uacbd",
+      category: 0,
       id: "/users/x4Wtzq",
     },
     {
@@ -1156,7 +1156,7 @@ const data: GraphData & any = {
       like_mean: 34.233333333333334,
       like_sum: 1027,
       id_name: "\ucc9c\ud604\uc6b0",
-      category: "\ucc9c\ud604\uc6b0",
+      category: 0,
       id: "/users/851t2P",
     },
     {
@@ -1169,7 +1169,7 @@ const data: GraphData & any = {
       like_mean: 0.9666666666666667,
       like_sum: 116,
       id_name: "\uad6c\uc7ac\uc6d0",
-      category: "\uad6c\uc7ac\uc6d0",
+      category: 2,
       id: "/users/LZtGnP",
     },
     {
@@ -1182,7 +1182,7 @@ const data: GraphData & any = {
       like_mean: 5.190140845070423,
       like_sum: 2948,
       id_name: "\ubc15\uc548\ub098",
-      category: "\ubc15\uc548\ub098",
+      category: 2,
       id: "/users/PnteB2",
     },
     {
@@ -1195,7 +1195,7 @@ const data: GraphData & any = {
       like_mean: 18.727272727272727,
       like_sum: 618,
       id_name: "\uc784\uba85\ubb35",
-      category: "\uc784\uba85\ubb35",
+      category: 0,
       id: "/users/qWatjJ",
     },
     {
@@ -1208,7 +1208,7 @@ const data: GraphData & any = {
       like_mean: 3.448717948717949,
       like_sum: 2152,
       id_name: "\uaddc\ub2c8\ubca0\ud0c0",
-      category: "\uaddc\ub2c8\ubca0\ud0c0",
+      category: 0,
       id: "/users/XGte3Q",
     },
     {
@@ -1221,7 +1221,7 @@ const data: GraphData & any = {
       like_mean: 20.046296296296298,
       like_sum: 2165,
       id_name: "alookso \ub274\uc2a4\ubabb",
-      category: "alookso \ub274\uc2a4\ubabb",
+      category: 1,
       id: "/users/k6tVXZ",
     },
     {
@@ -1234,7 +1234,7 @@ const data: GraphData & any = {
       like_mean: 15.159090909090908,
       like_sum: 667,
       id_name: "\ucc28\uc885\uad00",
-      category: "\ucc28\uc885\uad00",
+      category: 1,
       id: "/users/YEtLZR",
     },
     {
@@ -1247,7 +1247,7 @@ const data: GraphData & any = {
       like_mean: 20.5625,
       like_sum: 658,
       id_name: "\ud55c\uc124\uc774",
-      category: "\ud55c\uc124\uc774",
+      category: 0,
       id: "/users/xwVteq",
     },
     {
@@ -1260,7 +1260,7 @@ const data: GraphData & any = {
       like_mean: 17.74418604651163,
       like_sum: 763,
       id_name: "\ubc15\uc9c4\ub9cc",
-      category: "\ubc15\uc9c4\ub9cc",
+      category: 0,
       id: "/users/8r9tZb",
     },
     {
@@ -1273,7 +1273,7 @@ const data: GraphData & any = {
       like_mean: 2.6261682242990654,
       like_sum: 281,
       id_name: "\uae00\ub0e5\uc774",
-      category: "\uae00\ub0e5\uc774",
+      category: 3,
       id: "/users/MVty4l",
     },
     {
@@ -1286,7 +1286,7 @@ const data: GraphData & any = {
       like_mean: 5.688679245283019,
       like_sum: 603,
       id_name: "\uae00\uc7c1\uc774",
-      category: "\uae00\uc7c1\uc774",
+      category: 0,
       id: "/users/r9tywK",
     },
     {
@@ -1299,7 +1299,7 @@ const data: GraphData & any = {
       like_mean: 3.108910891089109,
       like_sum: 314,
       id_name: "\uae401000su",
-      category: "\uae401000su",
+      category: 2,
       id: "/users/9YtG7K",
     },
     {
@@ -1312,7 +1312,7 @@ const data: GraphData & any = {
       like_mean: 15.967213114754099,
       like_sum: 974,
       id_name: "\uae40\uac74\uc544",
-      category: "\uae40\uac74\uc544",
+      category: 1,
       id: "/users/9YtwOY",
     },
     {
@@ -1325,7 +1325,7 @@ const data: GraphData & any = {
       like_mean: 2.0714285714285716,
       like_sum: 58,
       id_name: "\uae40\uae08\ud76c",
-      category: "\uae40\uae08\ud76c",
+      category: 1,
       id: "/users/9Ytw9O",
     },
     {
@@ -1338,7 +1338,7 @@ const data: GraphData & any = {
       like_mean: 17.26923076923077,
       like_sum: 1347,
       id_name: "\uae40\ub300\uc911",
-      category: "\uae40\ub300\uc911",
+      category: 0,
       id: "/users/xwVtPr",
     },
     {
@@ -1351,7 +1351,7 @@ const data: GraphData & any = {
       like_mean: 6.25,
       like_sum: 425,
       id_name: "\uae40\uc120\ud76c",
-      category: "\uae40\uc120\ud76c",
+      category: 0,
       id: "/users/XGtwNy",
     },
     {
@@ -1364,7 +1364,7 @@ const data: GraphData & any = {
       like_mean: 1.34375,
       like_sum: 43,
       id_name: "\uae40\uc601\ub0a8",
-      category: "\uae40\uc601\ub0a8",
+      category: 1,
       id: "/users/N4tARe",
     },
     {
@@ -1377,7 +1377,7 @@ const data: GraphData & any = {
       like_mean: 6.933333333333334,
       like_sum: 312,
       id_name: "dreamerum89",
-      category: "dreamerum89",
+      category: 1,
       id: "/users/vZtWaJ",
     },
     {
@@ -1390,7 +1390,7 @@ const data: GraphData & any = {
       like_mean: 25.142857142857142,
       like_sum: 704,
       id_name: "\uc11c\uc900\uc218",
-      category: "\uc11c\uc900\uc218",
+      category: 1,
       id: "/users/RKtzP3",
     },
     {
@@ -1403,7 +1403,7 @@ const data: GraphData & any = {
       like_mean: 59.205882352941174,
       like_sum: 2013,
       id_name: "\ucc9c\uad00\uc728",
-      category: "\ucc9c\uad00\uc728",
+      category: 0,
       id: "/users/8letPq",
     },
     {
@@ -1416,7 +1416,7 @@ const data: GraphData & any = {
       like_mean: 3.0,
       like_sum: 99,
       id_name: "\uc784\ub3c4\uc601",
-      category: "\uc784\ub3c4\uc601",
+      category: 1,
       id: "/users/vZtgpR",
     },
     {
@@ -1429,7 +1429,7 @@ const data: GraphData & any = {
       like_mean: 1.303448275862069,
       like_sum: 189,
       id_name: "\uae40\ud0dc\uc601",
-      category: "\uae40\ud0dc\uc601",
+      category: 1,
       id: "/users/zntQoG",
     },
     {
@@ -1442,7 +1442,7 @@ const data: GraphData & any = {
       like_mean: 27.333333333333332,
       like_sum: 738,
       id_name: "\ucd5c\ud0dc\ud604",
-      category: "\ucd5c\ud0dc\ud604",
+      category: 1,
       id: "/users/4WtW46",
     },
     {
@@ -1455,7 +1455,7 @@ const data: GraphData & any = {
       like_mean: 1.6666666666666667,
       like_sum: 30,
       id_name: "\uae40\ud638\uc9c4",
-      category: "\uae40\ud638\uc9c4",
+      category: 0,
       id: "/users/xZBt4d",
     },
     {
@@ -1468,7 +1468,7 @@ const data: GraphData & any = {
       like_mean: 3.3636363636363638,
       like_sum: 222,
       id_name: "\uae4c\ub9dd\ucf69",
-      category: "\uae4c\ub9dd\ucf69",
+      category: 2,
       id: "/users/PntKR4",
     },
     {
@@ -1482,8 +1482,7 @@ const data: GraphData & any = {
       like_sum: 643,
       id_name:
         "\ub098\ub294 \uba48\ucd94\uc5b4\ub3c4 \uc2dc\uac04\uc740 \uac04\ub2e4",
-      category:
-        "\ub098\ub294 \uba48\ucd94\uc5b4\ub3c4 \uc2dc\uac04\uc740 \uac04\ub2e4",
+      category: 2,
       id: "/users/KktZ4a",
     },
     {
@@ -1496,7 +1495,7 @@ const data: GraphData & any = {
       like_mean: 1.8103448275862069,
       like_sum: 105,
       id_name: "\ub098\uc0ac\ubabb",
-      category: "\ub098\uc0ac\ubabb",
+      category: 2,
       id: "/users/EztwBr",
     },
     {
@@ -1509,7 +1508,7 @@ const data: GraphData & any = {
       like_mean: 5.754237288135593,
       like_sum: 679,
       id_name: "\ub2e4\uc18c\ub2c8",
-      category: "\ub2e4\uc18c\ub2c8",
+      category: 4,
       id: "/users/YEtjE6",
     },
     {
@@ -1522,7 +1521,7 @@ const data: GraphData & any = {
       like_mean: 3.3375,
       like_sum: 534,
       id_name: "\ub2e4\uc774\ube0c",
-      category: "\ub2e4\uc774\ube0c",
+      category: 4,
       id: "/users/9YtBJr",
     },
     {
@@ -1535,7 +1534,7 @@ const data: GraphData & any = {
       like_mean: 3.0,
       like_sum: 114,
       id_name: "\uc2dc\uc870\uc0c8",
-      category: "\uc2dc\uc870\uc0c8",
+      category: 0,
       id: "/users/k6tJlw",
     },
     {
@@ -1548,7 +1547,7 @@ const data: GraphData & any = {
       like_mean: 4.912280701754386,
       like_sum: 280,
       id_name: "\ub2ec\ub098\ub77c\uc18c\ub140",
-      category: "\ub2ec\ub098\ub77c\uc18c\ub140",
+      category: 0,
       id: "/users/notaGP",
     },
     {
@@ -1561,7 +1560,7 @@ const data: GraphData & any = {
       like_mean: 8.901960784313726,
       like_sum: 454,
       id_name: "\ub9c8\ub4dc\ub80c",
-      category: "\ub9c8\ub4dc\ub80c",
+      category: 0,
       id: "/users/20tL4r",
     },
     {
@@ -1574,7 +1573,7 @@ const data: GraphData & any = {
       like_mean: 6.475,
       like_sum: 259,
       id_name: "\uc18c\ubc15\ud55c\ud558\ub8e8",
-      category: "\uc18c\ubc15\ud55c\ud558\ub8e8",
+      category: 0,
       id: "/users/WatJoW",
     },
     {
@@ -1587,7 +1586,7 @@ const data: GraphData & any = {
       like_mean: 4.878787878787879,
       like_sum: 161,
       id_name: "\ud558\ud558\ud638\ud638\ud83d\ude00\ud83d\ude00\ud83d\ude00",
-      category: "\ud558\ud558\ud638\ud638\ud83d\ude00\ud83d\ude00\ud83d\ude00",
+      category: 0,
       id: "/users/wVtk4d",
     },
     {
@@ -1600,7 +1599,7 @@ const data: GraphData & any = {
       like_mean: 5.166666666666667,
       like_sum: 186,
       id_name: "\ub2f9\ub2f9\ud55c \uc5b8\ub2c8",
-      category: "\ub2f9\ub2f9\ud55c \uc5b8\ub2c8",
+      category: 1,
       id: "/users/3MtXmY",
     },
     {
@@ -1613,7 +1612,7 @@ const data: GraphData & any = {
       like_mean: 3.357335733573357,
       like_sum: 3730,
       id_name: "\ubc31\uc9c0\uc6b0",
-      category: "\ubc31\uc9c0\uc6b0",
+      category: 2,
       id: "/users/OgtVX3",
     },
     {
@@ -1626,7 +1625,7 @@ const data: GraphData & any = {
       like_mean: 4.2565445026178015,
       like_sum: 813,
       id_name: "\ub300\uad74\uc774",
-      category: "\ub300\uad74\uc774",
+      category: 4,
       id: "/users/r9t6z7",
     },
     {
@@ -1639,7 +1638,7 @@ const data: GraphData & any = {
       like_mean: 3.4879518072289155,
       like_sum: 579,
       id_name: "\uc18c\ud589\uc131B612",
-      category: "\uc18c\ud589\uc131B612",
+      category: 4,
       id: "/users/ozt4LD",
     },
     {
@@ -1652,7 +1651,7 @@ const data: GraphData & any = {
       like_mean: 3.413793103448276,
       like_sum: 297,
       id_name: "\ub354\ubd80\uc790\ub418\uc790",
-      category: "\ub354\ubd80\uc790\ub418\uc790",
+      category: 1,
       id: "/users/1Rt55w",
     },
     {
@@ -1665,7 +1664,7 @@ const data: GraphData & any = {
       like_mean: 4.307843137254902,
       like_sum: 2197,
       id_name: "\uc2e0\uc9e0\uc21c",
-      category: "\uc2e0\uc9e0\uc21c",
+      category: 1,
       id: "/users/r9twKk",
     },
     {
@@ -1678,7 +1677,7 @@ const data: GraphData & any = {
       like_mean: 2.0460526315789473,
       like_sum: 311,
       id_name: "\ub370\ubbf8\uc548",
-      category: "\ub370\ubbf8\uc548",
+      category: 1,
       id: "/users/RKtyod",
     },
     {
@@ -1691,7 +1690,7 @@ const data: GraphData & any = {
       like_mean: 5.761006289308176,
       like_sum: 916,
       id_name: "\ub3d9\ub3d9\uc8fc \uc81c\uc8fc",
-      category: "\ub3d9\ub3d9\uc8fc \uc81c\uc8fc",
+      category: 0,
       id: "/users/8Ogt7M",
     },
     {
@@ -1704,7 +1703,7 @@ const data: GraphData & any = {
       like_mean: 17.285714285714285,
       like_sum: 121,
       id_name: "\uc724\uc218\uc601",
-      category: "\uc724\uc218\uc601",
+      category: 0,
       id: "/users/xwVtDZ",
     },
     {
@@ -1717,7 +1716,7 @@ const data: GraphData & any = {
       like_mean: 3.1805555555555554,
       like_sum: 458,
       id_name: "\ub3d9\ud589\ud558\ub294 \ubc97",
-      category: "\ub3d9\ud589\ud558\ub294 \ubc97",
+      category: 3,
       id: "/users/mJtOR4",
     },
     {
@@ -1730,7 +1729,7 @@ const data: GraphData & any = {
       like_mean: 4.409090909090909,
       like_sum: 776,
       id_name: "\ub3d9\ud654\ucc98\ub7fc",
-      category: "\ub3d9\ud654\ucc98\ub7fc",
+      category: 0,
       id: "/users/LZt9MW",
     },
     {
@@ -1743,7 +1742,7 @@ const data: GraphData & any = {
       like_mean: 8.195652173913043,
       like_sum: 1131,
       id_name: "\ubc15\ub2ec",
-      category: "\ubc15\ub2ec",
+      category: 0,
       id: "/users/N4tanD",
     },
     {
@@ -1756,7 +1755,7 @@ const data: GraphData & any = {
       like_mean: 5.809210526315789,
       like_sum: 1766,
       id_name: "\uc464\ub2c8",
-      category: "\uc464\ub2c8",
+      category: 0,
       id: "/users/vZtnjX",
     },
     {
@@ -1769,7 +1768,7 @@ const data: GraphData & any = {
       like_mean: 5.110759493670886,
       like_sum: 1615,
       id_name: "\ubaa9\ub828\ud654",
-      category: "\ubaa9\ub828\ud654",
+      category: 5,
       id: "/users/Pnt1go",
     },
     {
@@ -1782,7 +1781,7 @@ const data: GraphData & any = {
       like_mean: 3.6366906474820144,
       like_sum: 2022,
       id_name: "\uc2e0\uc218\ud604",
-      category: "\uc2e0\uc218\ud604",
+      category: 2,
       id: "/users/zntOKG",
     },
     {
@@ -1795,7 +1794,7 @@ const data: GraphData & any = {
       like_mean: 3.6875,
       like_sum: 295,
       id_name: "\ub7ec\ubc84\uc2a4",
-      category: "\ub7ec\ubc84\uc2a4",
+      category: 4,
       id: "/users/OgtwWv",
     },
     {
@@ -1808,7 +1807,7 @@ const data: GraphData & any = {
       like_mean: 3.1971830985915495,
       like_sum: 454,
       id_name: "\ub808\ubbf8\ub098",
-      category: "\ub808\ubbf8\ub098",
+      category: 1,
       id: "/users/WatPvJ",
     },
     {
@@ -1821,7 +1820,7 @@ const data: GraphData & any = {
       like_mean: 9.053921568627452,
       like_sum: 3694,
       id_name: "\ud589\ubcf5",
-      category: "\ud589\ubcf5",
+      category: 1,
       id: "/users/6mtOQ3",
     },
     {
@@ -1834,7 +1833,7 @@ const data: GraphData & any = {
       like_mean: 4.006079027355623,
       like_sum: 1318,
       id_name: "\ub85c\uc988\uace8\ub4dc",
-      category: "\ub85c\uc988\uace8\ub4dc",
+      category: 2,
       id: "/users/letrGK",
     },
     {
@@ -1847,7 +1846,7 @@ const data: GraphData & any = {
       like_mean: 3.7934782608695654,
       like_sum: 1745,
       id_name: "\uc774\uc9c4\uc601",
-      category: "\uc774\uc9c4\uc601",
+      category: 2,
       id: "/users/51taEM",
     },
     {
@@ -1860,7 +1859,7 @@ const data: GraphData & any = {
       like_mean: 2.643181818181818,
       like_sum: 1163,
       id_name: "\ud589\ubcf5\uc5d0\ub108\uc9c0",
-      category: "\ud589\ubcf5\uc5d0\ub108\uc9c0",
+      category: 2,
       id: "/users/vZt6p3",
     },
     {
@@ -1873,7 +1872,7 @@ const data: GraphData & any = {
       like_mean: 3.5827586206896553,
       like_sum: 1039,
       id_name: "\ud48d\ucc28(mollen)",
-      category: "\ud48d\ucc28(mollen)",
+      category: 2,
       id: "/users/LZtr2e",
     },
     {
@@ -1886,7 +1885,7 @@ const data: GraphData & any = {
       like_mean: 1.951523545706371,
       like_sum: 1409,
       id_name: "\ub8f0\ub8e8\ub784\ub77c",
-      category: "\ub8f0\ub8e8\ub784\ub77c",
+      category: 1,
       id: "/users/ygtnZr",
     },
     {
@@ -1899,7 +1898,7 @@ const data: GraphData & any = {
       like_mean: 6.535714285714286,
       like_sum: 549,
       id_name: "\uccb4\ub9ac\uccb4\ub9ac",
-      category: "\uccb4\ub9ac\uccb4\ub9ac",
+      category: 1,
       id: "/users/9YtMev",
     },
     {
@@ -1912,7 +1911,7 @@ const data: GraphData & any = {
       like_mean: 6.014778325123153,
       like_sum: 1221,
       id_name: "\uce5c\uc808\ud55c\ubbfc\ub4e4\ub808",
-      category: "\uce5c\uc808\ud55c\ubbfc\ub4e4\ub808",
+      category: 1,
       id: "/users/VAtmA0",
     },
     {
@@ -1925,7 +1924,7 @@ const data: GraphData & any = {
       like_mean: 3.188841201716738,
       like_sum: 743,
       id_name: "serena",
-      category: "serena",
+      category: 1,
       id: "/users/4WtEAn",
     },
     {
@@ -1938,7 +1937,7 @@ const data: GraphData & any = {
       like_mean: 2.5408163265306123,
       like_sum: 249,
       id_name: "\ub098\uae30",
-      category: "\ub098\uae30",
+      category: 1,
       id: "/users/51tYnm",
     },
     {
@@ -1951,7 +1950,7 @@ const data: GraphData & any = {
       like_mean: 0.9090909090909091,
       like_sum: 60,
       id_name: "\uc815\ub300\uc601",
-      category: "\uc815\ub300\uc601",
+      category: 1,
       id: "/users/QPtGYL",
     },
     {
@@ -1964,7 +1963,7 @@ const data: GraphData & any = {
       like_mean: 3.7226277372262775,
       like_sum: 510,
       id_name: "\ub958\uc6b4\uc120",
-      category: "\ub958\uc6b4\uc120",
+      category: 3,
       id: "/users/PntPNY",
     },
     {
@@ -1977,7 +1976,7 @@ const data: GraphData & any = {
       like_mean: 3.0765432098765433,
       like_sum: 1246,
       id_name: "\ub9ac\uc5d4",
-      category: "\ub9ac\uc5d4",
+      category: 3,
       id: "/users/DotDyy",
     },
     {
@@ -1990,7 +1989,7 @@ const data: GraphData & any = {
       like_mean: 2.444866920152091,
       like_sum: 1929,
       id_name: "\ud53c\uc544\uc624\ub7c9",
-      category: "\ud53c\uc544\uc624\ub7c9",
+      category: 4,
       id: "/users/jlt54R",
     },
     {
@@ -2003,7 +2002,7 @@ const data: GraphData & any = {
       like_mean: 7.897260273972603,
       like_sum: 1153,
       id_name: "\uc131\ud76c",
-      category: "\uc131\ud76c",
+      category: 0,
       id: "/users/4WtDo0",
     },
     {
@@ -2016,7 +2015,7 @@ const data: GraphData & any = {
       like_mean: 3.737051792828685,
       like_sum: 938,
       id_name: "\ub9c8\uc2a42025",
-      category: "\ub9c8\uc2a42025",
+      category: 2,
       id: "/users/0BtD3A",
     },
     {
@@ -2029,7 +2028,7 @@ const data: GraphData & any = {
       like_mean: 1.462962962962963,
       like_sum: 79,
       id_name: "\ub9cc\ubcf4\uc9e0\ub3cc\uc774",
-      category: "\ub9cc\ubcf4\uc9e0\ub3cc\uc774",
+      category: 0,
       id: "/users/A6tAND",
     },
     {
@@ -2042,7 +2041,7 @@ const data: GraphData & any = {
       like_mean: 4.375,
       like_sum: 70,
       id_name: "\uc544\uc774\uc0ac\ub791",
-      category: "\uc544\uc774\uc0ac\ub791",
+      category: 0,
       id: "/users/jltYBQ",
     },
     {
@@ -2055,7 +2054,7 @@ const data: GraphData & any = {
       like_mean: 3.300925925925926,
       like_sum: 713,
       id_name: "DOBBY",
-      category: "DOBBY",
+      category: 4,
       id: "/users/YEtjPN",
     },
     {
@@ -2068,7 +2067,7 @@ const data: GraphData & any = {
       like_mean: 5.0588235294117645,
       like_sum: 1204,
       id_name: "\uc11c\ud230\ub304\uc11c",
-      category: "\uc11c\ud230\ub304\uc11c",
+      category: 0,
       id: "/users/VAtj9E",
     },
     {
@@ -2081,7 +2080,7 @@ const data: GraphData & any = {
       like_mean: 4.666666666666667,
       like_sum: 140,
       id_name: "\ubc14\ub2e4",
-      category: "\ubc14\ub2e4",
+      category: 0,
       id: "/users/bvZtnr",
     },
     {
@@ -2094,7 +2093,7 @@ const data: GraphData & any = {
       like_mean: 2.3333333333333335,
       like_sum: 21,
       id_name: "\ubb38\uc0c1\uc77c",
-      category: "\ubb38\uc0c1\uc77c",
+      category: 0,
       id: "/users/LZtO5k",
     },
     {
@@ -2107,7 +2106,7 @@ const data: GraphData & any = {
       like_mean: 6.153846153846154,
       like_sum: 80,
       id_name: "\ud321\ud321\uc774\uc774",
-      category: "\ud321\ud321\uc774\uc774",
+      category: 0,
       id: "/users/OgtLXJ",
     },
     {
@@ -2120,7 +2119,7 @@ const data: GraphData & any = {
       like_mean: 8.694029850746269,
       like_sum: 1165,
       id_name: "\ubc15\uc6b0\uc131",
-      category: "\ubc15\uc6b0\uc131",
+      category: 2,
       id: "/users/20tZ7e",
     },
     {
@@ -2133,7 +2132,7 @@ const data: GraphData & any = {
       like_mean: 4.5,
       like_sum: 36,
       id_name: "\uc18c\uc18c\ud55c \ub098\ub0a0\ub4e4",
-      category: "\uc18c\uc18c\ud55c \ub098\ub0a0\ub4e4",
+      category: 4,
       id: "/users/6mty0a",
     },
     {
@@ -2146,7 +2145,7 @@ const data: GraphData & any = {
       like_mean: 5.285714285714286,
       like_sum: 555,
       id_name: "\ubc15\uc815\ud6c8",
-      category: "\ubc15\uc815\ud6c8",
+      category: 1,
       id: "/users/eNtwnL",
     },
     {
@@ -2159,7 +2158,7 @@ const data: GraphData & any = {
       like_mean: 5.656716417910448,
       like_sum: 379,
       id_name: "109",
-      category: "109",
+      category: 4,
       id: "/users/zntYYk",
     },
     {
@@ -2172,7 +2171,7 @@ const data: GraphData & any = {
       like_mean: 2.406779661016949,
       like_sum: 142,
       id_name: "\uc791\uc740 \uae30\ub2e4\ub9bc",
-      category: "\uc791\uc740 \uae30\ub2e4\ub9bc",
+      category: 1,
       id: "/users/QPtGm6",
     },
     {
@@ -2185,7 +2184,7 @@ const data: GraphData & any = {
       like_mean: 4.3700787401574805,
       like_sum: 555,
       id_name: "\ubc15\ud76c\uc5f0",
-      category: "\ubc15\ud76c\uc5f0",
+      category: 0,
       id: "/users/8lety7",
     },
     {
@@ -2198,7 +2197,7 @@ const data: GraphData & any = {
       like_mean: 11.773584905660377,
       like_sum: 624,
       id_name: "\uc624\uacbd\uc219",
-      category: "\uc624\uacbd\uc219",
+      category: 0,
       id: "/users/20tgRW",
     },
     {
@@ -2211,7 +2210,7 @@ const data: GraphData & any = {
       like_mean: 7.784090909090909,
       like_sum: 685,
       id_name: "\ud754\ud55c\uac00\uc871",
-      category: "\ud754\ud55c\uac00\uc871",
+      category: 0,
       id: "/users/eNtkXP",
     },
     {
@@ -2224,7 +2223,7 @@ const data: GraphData & any = {
       like_mean: 4.41409691629956,
       like_sum: 1002,
       id_name: "\uc9c1\uc7a5\uc778B",
-      category: "\uc9c1\uc7a5\uc778B",
+      category: 1,
       id: "/users/A6tG9v",
     },
     {
@@ -2237,7 +2236,7 @@ const data: GraphData & any = {
       like_mean: 2.6902173913043477,
       like_sum: 495,
       id_name: "\ubc1c\ub05d\uc0d8",
-      category: "\ubc1c\ub05d\uc0d8",
+      category: 4,
       id: "/users/OgtKA9",
     },
     {
@@ -2250,7 +2249,7 @@ const data: GraphData & any = {
       like_mean: 10.091954022988507,
       like_sum: 878,
       id_name: "\ubc31\uc1a1\uc774",
-      category: "\ubc31\uc1a1\uc774",
+      category: 1,
       id: "/users/oztaZA",
     },
     {
@@ -2263,7 +2262,7 @@ const data: GraphData & any = {
       like_mean: 1.329268292682927,
       like_sum: 109,
       id_name: "\uc544\uc528",
-      category: "\uc544\uc528",
+      category: 4,
       id: "/users/QPtmd2",
     },
     {
@@ -2276,7 +2275,7 @@ const data: GraphData & any = {
       like_mean: 3.2093023255813953,
       like_sum: 414,
       id_name: "\uac04\ub2e8\ud55c\ub2c9\ub124\uc784",
-      category: "\uac04\ub2e8\ud55c\ub2c9\ub124\uc784",
+      category: 2,
       id: "/users/eNtDDz",
     },
     {
@@ -2289,7 +2288,7 @@ const data: GraphData & any = {
       like_mean: 6.185185185185185,
       like_sum: 334,
       id_name: "\uac1c\ubbf8\uc758 \uc774\uc57c\uae30\ub178\ud2b8",
-      category: "\uac1c\ubbf8\uc758 \uc774\uc57c\uae30\ub178\ud2b8",
+      category: 2,
       id: "/users/wVtAZe",
     },
     {
@@ -2302,7 +2301,7 @@ const data: GraphData & any = {
       like_mean: 3.2745098039215685,
       like_sum: 167,
       id_name: "\ubb3c\ud0c0\ub2e4 \ub300\uc8fc\uc8fc",
-      category: "\ubb3c\ud0c0\ub2e4 \ub300\uc8fc\uc8fc",
+      category: 3,
       id: "/users/JptwYk",
     },
     {
@@ -2315,7 +2314,7 @@ const data: GraphData & any = {
       like_mean: 5.6568627450980395,
       like_sum: 577,
       id_name: "DAY",
-      category: "DAY",
+      category: 1,
       id: "/users/3Mt44O",
     },
     {
@@ -2328,7 +2327,7 @@ const data: GraphData & any = {
       like_mean: 2.4652777777777777,
       like_sum: 355,
       id_name: "\ud48d\uc6d4\ub7c9\ub300\uc9c0\ub1e8\uc18d",
-      category: "\ud48d\uc6d4\ub7c9\ub300\uc9c0\ub1e8\uc18d",
+      category: 2,
       id: "/users/jltN7G",
     },
     {
@@ -2341,7 +2340,7 @@ const data: GraphData & any = {
       like_mean: 5.538461538461538,
       like_sum: 360,
       id_name: "\uc2ec\uc2ec\ud558\uc9c0\uc601",
-      category: "\uc2ec\uc2ec\ud558\uc9c0\uc601",
+      category: 2,
       id: "/users/dQtmeZ",
     },
     {
@@ -2354,7 +2353,7 @@ const data: GraphData & any = {
       like_mean: 4.776223776223776,
       like_sum: 683,
       id_name: "\uc774\ud604\uc6c5",
-      category: "\uc774\ud604\uc6c5",
+      category: 1,
       id: "/users/4WtWwz",
     },
     {
@@ -2367,7 +2366,7 @@ const data: GraphData & any = {
       like_mean: 1.5148514851485149,
       like_sum: 153,
       id_name: "\uacbd\uc81c\uc801\uc790\uc720",
-      category: "\uacbd\uc81c\uc801\uc790\uc720",
+      category: 1,
       id: "/users/dQty1B",
     },
     {
@@ -2380,7 +2379,7 @@ const data: GraphData & any = {
       like_mean: 4.337837837837838,
       like_sum: 321,
       id_name: "\ubc45\uae30\uc29d",
-      category: "\ubc45\uae30\uc29d",
+      category: 2,
       id: "/users/dQtQ3L",
     },
     {
@@ -2393,7 +2392,7 @@ const data: GraphData & any = {
       like_mean: 4.277580071174377,
       like_sum: 1202,
       id_name: "\ub2e4\uae30",
-      category: "\ub2e4\uae30",
+      category: 3,
       id: "/users/4Wt2Ow",
     },
     {
@@ -2406,7 +2405,7 @@ const data: GraphData & any = {
       like_mean: 2.814736842105263,
       like_sum: 1337,
       id_name: "\uc774\ud638\uc900",
-      category: "\uc774\ud638\uc900",
+      category: 1,
       id: "/users/Ogt4jp",
     },
     {
@@ -2419,7 +2418,7 @@ const data: GraphData & any = {
       like_mean: 2.9393939393939394,
       like_sum: 582,
       id_name: "\ub0b4\ub9d8\uc18d\uc758\uc0ac\uc9c1\uc11c",
-      category: "\ub0b4\ub9d8\uc18d\uc758\uc0ac\uc9c1\uc11c",
+      category: 2,
       id: "/users/6mtzKJ",
     },
     {
@@ -2432,7 +2431,7 @@ const data: GraphData & any = {
       like_mean: 9.292929292929292,
       like_sum: 920,
       id_name: "\ucc45\ubd80\uc790",
-      category: "\ucc45\ubd80\uc790",
+      category: 2,
       id: "/users/Jpt5EJ",
     },
     {
@@ -2445,7 +2444,7 @@ const data: GraphData & any = {
       like_mean: 3.531791907514451,
       like_sum: 611,
       id_name: "\uc774\ud76c\uc601",
-      category: "\uc774\ud76c\uc601",
+      category: 1,
       id: "/users/eNtzGv",
     },
     {
@@ -2458,7 +2457,7 @@ const data: GraphData & any = {
       like_mean: 2.590308370044053,
       like_sum: 588,
       id_name: "\ud558\uc720\uc2ec",
-      category: "\ud558\uc720\uc2ec",
+      category: 1,
       id: "/users/BetL7A",
     },
     {
@@ -2471,7 +2470,7 @@ const data: GraphData & any = {
       like_mean: 4.162280701754386,
       like_sum: 949,
       id_name: "\uc11c\ud230\uc0ac\ub78c",
-      category: "\uc11c\ud230\uc0ac\ub78c",
+      category: 1,
       id: "/users/prtLM6",
     },
     {
@@ -2484,7 +2483,7 @@ const data: GraphData & any = {
       like_mean: 3.7014218009478674,
       like_sum: 781,
       id_name: "\uce74\uce74",
-      category: "\uce74\uce74",
+      category: 1,
       id: "/users/51tW7A",
     },
     {
@@ -2497,7 +2496,7 @@ const data: GraphData & any = {
       like_mean: 2.4142156862745097,
       like_sum: 985,
       id_name: "\uad6c\ub984",
-      category: "\uad6c\ub984",
+      category: 1,
       id: "/users/r9twYR",
     },
     {
@@ -2510,7 +2509,7 @@ const data: GraphData & any = {
       like_mean: 3.312,
       like_sum: 1242,
       id_name: "\ud06c\ub9ac\uc2a4",
-      category: "\ud06c\ub9ac\uc2a4",
+      category: 1,
       id: "/users/znt9Y5",
     },
     {
@@ -2523,7 +2522,7 @@ const data: GraphData & any = {
       like_mean: 2.9935275080906147,
       like_sum: 925,
       id_name: "\ud604\uacbd",
-      category: "\ud604\uacbd",
+      category: 1,
       id: "/users/VAtRNl",
     },
     {
@@ -2536,7 +2535,7 @@ const data: GraphData & any = {
       like_mean: 3.0125,
       like_sum: 241,
       id_name: "\uc0ac\ub77c",
-      category: "\uc0ac\ub77c",
+      category: 1,
       id: "/users/a3tVRk",
     },
     {
@@ -2549,7 +2548,7 @@ const data: GraphData & any = {
       like_mean: 18.12,
       like_sum: 906,
       id_name: "\uc815\uc138\uc9c4",
-      category: "\uc815\uc138\uc9c4",
+      category: 1,
       id: "/users/QPtBaD",
     },
     {
@@ -2562,7 +2561,7 @@ const data: GraphData & any = {
       like_mean: 9.717391304347826,
       like_sum: 447,
       id_name: "\ubd80\ucd94\ud615",
-      category: "\ubd80\ucd94\ud615",
+      category: 1,
       id: "/users/a3tJ75",
     },
     {
@@ -2575,7 +2574,7 @@ const data: GraphData & any = {
       like_mean: 5.822085889570552,
       like_sum: 949,
       id_name: "\ud3c9\uc18c\ub0a8",
-      category: "\ud3c9\uc18c\ub0a8",
+      category: 0,
       id: "/users/eNtmpO",
     },
     {
@@ -2588,7 +2587,7 @@ const data: GraphData & any = {
       like_mean: 3.4166666666666665,
       like_sum: 451,
       id_name: "\ube48\uc774",
-      category: "\ube48\uc774",
+      category: 4,
       id: "/users/9YtBR5",
     },
     {
@@ -2601,7 +2600,7 @@ const data: GraphData & any = {
       like_mean: 2.4390243902439024,
       like_sum: 300,
       id_name: "\ube5b",
-      category: "\ube5b",
+      category: 4,
       id: "/users/OgtzYA",
     },
     {
@@ -2614,7 +2613,7 @@ const data: GraphData & any = {
       like_mean: 5.678714859437751,
       like_sum: 1414,
       id_name: "\ud574\ud53c",
-      category: "\ud574\ud53c",
+      category: 1,
       id: "/users/gvtJOP",
     },
     {
@@ -2627,7 +2626,7 @@ const data: GraphData & any = {
       like_mean: 2.2777777777777777,
       like_sum: 615,
       id_name: "\ube5b\uc774\uc5ec",
-      category: "\ube5b\uc774\uc5ec",
+      category: 1,
       id: "/users/vZtWPL",
     },
     {
@@ -2640,7 +2639,7 @@ const data: GraphData & any = {
       like_mean: 1.9642857142857142,
       like_sum: 55,
       id_name: "\uc0c8\ub85c\uc6b4\uafc8",
-      category: "\uc0c8\ub85c\uc6b4\uafc8",
+      category: 1,
       id: "/users/A6tY0n",
     },
     {
@@ -2653,7 +2652,7 @@ const data: GraphData & any = {
       like_mean: 2.7777777777777777,
       like_sum: 75,
       id_name: "\uc0c8\uc2f9\uc774",
-      category: "\uc0c8\uc2f9\uc774",
+      category: 1,
       id: "/users/9YtWo0",
     },
     {
@@ -2666,7 +2665,7 @@ const data: GraphData & any = {
       like_mean: 0.9411764705882353,
       like_sum: 16,
       id_name: "\uc11c\uc6b8\ub300\uc804\ubd80\uc0b0",
-      category: "\uc11c\uc6b8\ub300\uc804\ubd80\uc0b0",
+      category: 4,
       id: "/users/N4tgwl",
     },
     {
@@ -2679,7 +2678,7 @@ const data: GraphData & any = {
       like_mean: 4.023255813953488,
       like_sum: 173,
       id_name: "\uc120\uc601",
-      category: "\uc120\uc601",
+      category: 1,
       id: "/users/ygt0Ea",
     },
     {
@@ -2692,7 +2691,7 @@ const data: GraphData & any = {
       like_mean: 2.422222222222222,
       like_sum: 327,
       id_name: "\uc138\uc0c1\ub9cc\uc0ac",
-      category: "\uc138\uc0c1\ub9cc\uc0ac",
+      category: 2,
       id: "/users/OgtX91",
     },
     {
@@ -2705,7 +2704,7 @@ const data: GraphData & any = {
       like_mean: 2.8421052631578947,
       like_sum: 108,
       id_name: "\uc138\uc0c1\uc758 \uc18c\ub9ac",
-      category: "\uc138\uc0c1\uc758 \uc18c\ub9ac",
+      category: 1,
       id: "/users/GDtdpX",
     },
     {
@@ -2718,7 +2717,7 @@ const data: GraphData & any = {
       like_mean: 1.5172413793103448,
       like_sum: 44,
       id_name: "\uc560\ub2c8\uc758 \uc18c\uc18c\ud55c \uc774\uc57c\uae30",
-      category: "\uc560\ub2c8\uc758 \uc18c\uc18c\ud55c \uc774\uc57c\uae30",
+      category: 1,
       id: "/users/k6tVv0",
     },
     {
@@ -2731,7 +2730,7 @@ const data: GraphData & any = {
       like_mean: 3.0531914893617023,
       like_sum: 287,
       id_name: "\uc624\ub290\ub978\uc120\ubb3c",
-      category: "\uc624\ub290\ub978\uc120\ubb3c",
+      category: 2,
       id: "/users/LZtKv1",
     },
     {
@@ -2744,7 +2743,7 @@ const data: GraphData & any = {
       like_mean: 5.238938053097345,
       like_sum: 592,
       id_name: "\uc721\uc544\ub9d8",
-      category: "\uc721\uc544\ub9d8",
+      category: 1,
       id: "/users/N4tldd",
     },
     {
@@ -2757,7 +2756,7 @@ const data: GraphData & any = {
       like_mean: 1.3214285714285714,
       like_sum: 185,
       id_name: "\ucde8\ubbf8\ub85c \uae00\uc4f0\ub294 \uc0ac\ub78c",
-      category: "\ucde8\ubbf8\ub85c \uae00\uc4f0\ub294 \uc0ac\ub78c",
+      category: 4,
       id: "/users/WatW9E",
     },
     {
@@ -2770,7 +2769,7 @@ const data: GraphData & any = {
       like_mean: 5.83,
       like_sum: 1749,
       id_name: "\ucf69\uc0ac\ud0d5\ub098\ubb34",
-      category: "\ucf69\uc0ac\ud0d5\ub098\ubb34",
+      category: 3,
       id: "/users/jltQY5",
     },
     {
@@ -2783,7 +2782,7 @@ const data: GraphData & any = {
       like_mean: 4.112871287128713,
       like_sum: 2077,
       id_name: "\uc544\uc774\uc2a4\ube14\ub8e8",
-      category: "\uc544\uc774\uc2a4\ube14\ub8e8",
+      category: 2,
       id: "/users/N4tlBG",
     },
     {
@@ -2796,7 +2795,7 @@ const data: GraphData & any = {
       like_mean: 8.836065573770492,
       like_sum: 539,
       id_name: "\uc2e0\uc791",
-      category: "\uc2e0\uc791",
+      category: 0,
       id: "/users/LZtYXe",
     },
     {
@@ -2809,7 +2808,7 @@ const data: GraphData & any = {
       like_mean: 14.878787878787879,
       like_sum: 491,
       id_name: "\uc2e0\ud604\uc218",
-      category: "\uc2e0\ud604\uc218",
+      category: 1,
       id: "/users/XGt2V5",
     },
     {
@@ -2822,7 +2821,7 @@ const data: GraphData & any = {
       like_mean: 6.290322580645161,
       like_sum: 585,
       id_name: "\ud5ec\ub85c",
-      category: "\ud5ec\ub85c",
+      category: 0,
       id: "/users/GDt7Gl",
     },
     {
@@ -2835,7 +2834,7 @@ const data: GraphData & any = {
       like_mean: 6.416058394160584,
       like_sum: 879,
       id_name: "\ud0a4\ub9ac\uc2a4",
-      category: "\ud0a4\ub9ac\uc2a4",
+      category: 0,
       id: "/users/ygtJkd",
     },
     {
@@ -2848,7 +2847,7 @@ const data: GraphData & any = {
       like_mean: 9.190909090909091,
       like_sum: 1011,
       id_name: "\uc3d8\uc3d8",
-      category: "\uc3d8\uc3d8",
+      category: 4,
       id: "/users/wVt7vp",
     },
     {
@@ -2861,7 +2860,7 @@ const data: GraphData & any = {
       like_mean: 2.9166666666666665,
       like_sum: 210,
       id_name: "\uc584\ub8e8",
-      category: "\uc584\ub8e8",
+      category: 2,
       id: "/users/LZtG6p",
     },
     {
@@ -2874,7 +2873,7 @@ const data: GraphData & any = {
       like_mean: 6.530612244897959,
       like_sum: 320,
       id_name: "\uc5d0\uc2a4\uae4c\uc774\uc18c",
-      category: "\uc5d0\uc2a4\uae4c\uc774\uc18c",
+      category: 0,
       id: "/users/a3tmer",
     },
     {
@@ -2887,7 +2886,7 @@ const data: GraphData & any = {
       like_mean: 4.203821656050955,
       like_sum: 660,
       id_name: "\uc5d4\ud504\ud53c",
-      category: "\uc5d4\ud504\ud53c",
+      category: 3,
       id: "/users/Ezt77Y",
     },
     {
@@ -2900,7 +2899,7 @@ const data: GraphData & any = {
       like_mean: 3.814159292035398,
       like_sum: 862,
       id_name: "\uc5ec\ub2c8",
-      category: "\uc5ec\ub2c8",
+      category: 2,
       id: "/users/MVtBJm",
     },
     {
@@ -2913,7 +2912,7 @@ const data: GraphData & any = {
       like_mean: 2.3053435114503817,
       like_sum: 604,
       id_name: "\uc2b9\ub9ac Victory",
-      category: "\uc2b9\ub9ac Victory",
+      category: 4,
       id: "/users/oztKka",
     },
     {
@@ -2926,7 +2925,7 @@ const data: GraphData & any = {
       like_mean: 2.050632911392405,
       like_sum: 162,
       id_name: "\ud2b8\ub2c8\ub9d8",
-      category: "\ud2b8\ub2c8\ub9d8",
+      category: 3,
       id: "/users/XGt0mn",
     },
     {
@@ -2939,7 +2938,7 @@ const data: GraphData & any = {
       like_mean: 8.027624309392266,
       like_sum: 1453,
       id_name: "\uc5bc\ub8e9\ub9d0~^^",
-      category: "\uc5bc\ub8e9\ub9d0~^^",
+      category: 3,
       id: "/users/QPt9RZ",
     },
     {
@@ -2952,7 +2951,7 @@ const data: GraphData & any = {
       like_mean: 1.507462686567164,
       like_sum: 101,
       id_name: "\uc624\uacbd\uc219",
-      category: "\uc624\uacbd\uc219",
+      category: 1,
       id: "/users/51tYZ4",
     },
     {
@@ -2965,7 +2964,7 @@ const data: GraphData & any = {
       like_mean: 1.5789473684210527,
       like_sum: 60,
       id_name: "\uc624\uc131\ubbfc",
-      category: "\uc624\uc131\ubbfc",
+      category: 2,
       id: "/users/mJtzPX",
     },
     {
@@ -2978,7 +2977,7 @@ const data: GraphData & any = {
       like_mean: 3.2625482625482625,
       like_sum: 845,
       id_name: "\ud604\ubbf8\uc601",
-      category: "\ud604\ubbf8\uc601",
+      category: 4,
       id: "/users/dQtzBg",
     },
     {
@@ -2991,7 +2990,7 @@ const data: GraphData & any = {
       like_mean: 4.195121951219512,
       like_sum: 1376,
       id_name: "\ud558\uc5f0",
-      category: "\ud558\uc5f0",
+      category: 4,
       id: "/users/k6tgKl",
     },
     {
@@ -3004,7 +3003,7 @@ const data: GraphData & any = {
       like_mean: 8.194444444444445,
       like_sum: 295,
       id_name: "\uae40\uc601\uc9c4",
-      category: "\uae40\uc601\uc9c4",
+      category: 4,
       id: "/users/vZtz7P",
     },
     {
@@ -3017,7 +3016,7 @@ const data: GraphData & any = {
       like_mean: 2.1483050847457625,
       like_sum: 1014,
       id_name: "\ud654\ub2c8\ub791\ud76c\uc57c",
-      category: "\ud654\ub2c8\ub791\ud76c\uc57c",
+      category: 2,
       id: "/users/a3tZwD",
     },
     {
@@ -3030,7 +3029,7 @@ const data: GraphData & any = {
       like_mean: 7.477064220183486,
       like_sum: 815,
       id_name: "\ub9ac\uc704\ud2f0 leewitty",
-      category: "\ub9ac\uc704\ud2f0 leewitty",
+      category: 4,
       id: "/users/3Mto2v",
     },
     {
@@ -3043,7 +3042,7 @@ const data: GraphData & any = {
       like_mean: 3.6966824644549763,
       like_sum: 780,
       id_name: "\ubb49\uc0c1\uac00",
-      category: "\ubb49\uc0c1\uac00",
+      category: 1,
       id: "/users/PntEo5",
     },
     {
@@ -3056,7 +3055,7 @@ const data: GraphData & any = {
       like_mean: 6.257731958762887,
       like_sum: 607,
       id_name: "\uc774\ube44\uc138",
-      category: "\uc774\ube44\uc138",
+      category: 0,
       id: "/users/LZtY7e",
     },
     {
@@ -3069,7 +3068,7 @@ const data: GraphData & any = {
       like_mean: 6.372340425531915,
       like_sum: 599,
       id_name: "\uc774\uc138\ub828",
-      category: "\uc774\uc138\ub828",
+      category: 0,
       id: "/users/RKt7y5",
     },
     {
@@ -3082,7 +3081,7 @@ const data: GraphData & any = {
       like_mean: 15.755555555555556,
       like_sum: 709,
       id_name: "\ud759\ud68c\uc7a5",
-      category: "\ud759\ud68c\uc7a5",
+      category: 0,
       id: "/users/LZtNv4",
     },
     {
@@ -3095,7 +3094,7 @@ const data: GraphData & any = {
       like_mean: 7.133333333333334,
       like_sum: 642,
       id_name: "\ud559\uc7ac",
-      category: "\ud559\uc7ac",
+      category: 0,
       id: "/users/letME1",
     },
     {
@@ -3108,7 +3107,7 @@ const data: GraphData & any = {
       like_mean: 8.073170731707316,
       like_sum: 331,
       id_name: "\ubaa8\ubaa8",
-      category: "\ubaa8\ubaa8",
+      category: 0,
       id: "/users/9YtrR4",
     },
     {
@@ -3122,8 +3121,7 @@ const data: GraphData & any = {
       like_sum: 1615,
       id_name:
         "\uc2e0\uaddc \uc5bc\ub8e9\ucee4\ub4e4\uc758 \uc0c8\ub85c\uc6b4 \ubc29\ud5a5\uc744 \ud6c4\uc6d0\ud569\ub2c8\ub2e4.",
-      category:
-        "\uc2e0\uaddc \uc5bc\ub8e9\ucee4\ub4e4\uc758 \uc0c8\ub85c\uc6b4 \ubc29\ud5a5\uc744 \ud6c4\uc6d0\ud569\ub2c8\ub2e4.",
+      category: 0,
       id: "/users/jlt2py",
     },
     {
@@ -3136,7 +3134,7 @@ const data: GraphData & any = {
       like_mean: 1.4130434782608696,
       like_sum: 130,
       id_name: "\uc774\ud604\uc218",
-      category: "\uc774\ud604\uc218",
+      category: 3,
       id: "/users/RKtpk1",
     },
     {
@@ -3149,7 +3147,7 @@ const data: GraphData & any = {
       like_mean: 5.655172413793103,
       like_sum: 164,
       id_name: "\uc774\ud61c\uc219",
-      category: "\uc774\ud61c\uc219",
+      category: 0,
       id: "/users/A6t5kr",
     },
     {
@@ -3162,7 +3160,7 @@ const data: GraphData & any = {
       like_mean: 1.6046511627906976,
       like_sum: 207,
       id_name: "\uc77c\uc0c1\ub7ec",
-      category: "\uc77c\uc0c1\ub7ec",
+      category: 2,
       id: "/users/letrBY",
     },
     {
@@ -3175,7 +3173,7 @@ const data: GraphData & any = {
       like_mean: 5.898305084745763,
       like_sum: 348,
       id_name: "\uc787\uc288",
-      category: "\uc787\uc288",
+      category: 1,
       id: "/users/VAtmJO",
     },
     {
@@ -3188,7 +3186,7 @@ const data: GraphData & any = {
       like_mean: 2.0885416666666665,
       like_sum: 401,
       id_name: "\uc815\uc7ac\uc724",
-      category: "\uc815\uc7ac\uc724",
+      category: 1,
       id: "/users/YEtvQG",
     },
     {
@@ -3201,7 +3199,7 @@ const data: GraphData & any = {
       like_mean: 2.27027027027027,
       like_sum: 84,
       id_name: "\uc815\ud55c\uc784",
-      category: "\uc815\ud55c\uc784",
+      category: 5,
       id: "/users/20tQPj",
     },
     {
@@ -3215,8 +3213,7 @@ const data: GraphData & any = {
       like_sum: 258,
       id_name:
         "\uc81c\uc8fc\ud587\uc0b4,\ubc14\ub78c \uadf8\ub9ac\uace0 \uacf5\uae30",
-      category:
-        "\uc81c\uc8fc\ud587\uc0b4,\ubc14\ub78c \uadf8\ub9ac\uace0 \uacf5\uae30",
+      category: 2,
       id: "/users/jltM66",
     },
     {
@@ -3229,7 +3226,7 @@ const data: GraphData & any = {
       like_mean: 2.9638009049773757,
       like_sum: 655,
       id_name: "young",
-      category: "young",
+      category: 2,
       id: "/users/letY9y",
     },
     {
@@ -3242,7 +3239,7 @@ const data: GraphData & any = {
       like_mean: 1.6419753086419753,
       like_sum: 133,
       id_name: "\ubc15\ubcf4\uc5f0",
-      category: "\ubc15\ubcf4\uc5f0",
+      category: 4,
       id: "/users/VAt1e1",
     },
     {
@@ -3255,7 +3252,7 @@ const data: GraphData & any = {
       like_mean: 28.05263157894737,
       like_sum: 533,
       id_name: "\ud638\uc11c\ube44",
-      category: "\ud638\uc11c\ube44",
+      category: 2,
       id: "/users/dQtQzo",
     },
     {
@@ -3268,7 +3265,7 @@ const data: GraphData & any = {
       like_mean: 1.2173913043478262,
       like_sum: 28,
       id_name: "kittencool",
-      category: "kittencool",
+      category: 2,
       id: "/users/wVtm16",
     },
     {
@@ -3281,7 +3278,7 @@ const data: GraphData & any = {
       like_mean: 11.129032258064516,
       like_sum: 345,
       id_name: "\ud63c\ub780\ud55c \uc54c\ud30c\uce74",
-      category: "\ud63c\ub780\ud55c \uc54c\ud30c\uce74",
+      category: 0,
       id: "/users/LZtp5J",
     },
     {
@@ -3294,7 +3291,7 @@ const data: GraphData & any = {
       like_mean: 3.44375,
       like_sum: 1102,
       id_name: "\uc885\ub450\ub4dd\ub450",
-      category: "\uc885\ub450\ub4dd\ub450",
+      category: 4,
       id: "/users/LZteGe",
     },
     {
@@ -3307,7 +3304,7 @@ const data: GraphData & any = {
       like_mean: 1.6761133603238867,
       like_sum: 414,
       id_name: "\ucc30\ub9ac",
-      category: "\ucc30\ub9ac",
+      category: 3,
       id: "/users/A6tEJ9",
     },
     {
@@ -3320,7 +3317,7 @@ const data: GraphData & any = {
       like_mean: 6.346153846153846,
       like_sum: 165,
       id_name: "\uccad\uc124\ubaa8",
-      category: "\uccad\uc124\ubaa8",
+      category: 0,
       id: "/users/51tyG5",
     },
     {
@@ -3333,7 +3330,7 @@ const data: GraphData & any = {
       like_mean: 2.0125,
       like_sum: 161,
       id_name: "\ucd5c\uc2b9\ud601",
-      category: "\ucd5c\uc2b9\ud601",
+      category: 5,
       id: "/users/GDtGRZ",
     },
     {
@@ -3346,7 +3343,7 @@ const data: GraphData & any = {
       like_mean: 1.3846153846153846,
       like_sum: 18,
       id_name: "\ub4e0\ub4e0\ub300\uc7a5",
-      category: "\ub4e0\ub4e0\ub300\uc7a5",
+      category: 2,
       id: "/users/51tkEZ",
     },
     {
@@ -3359,7 +3356,7 @@ const data: GraphData & any = {
       like_mean: 7.273224043715847,
       like_sum: 1331,
       id_name: "\ud1a0\ub2c8\ub958",
-      category: "\ud1a0\ub2c8\ub958",
+      category: 1,
       id: "/users/gvtA3w",
     },
     {
@@ -3372,7 +3369,7 @@ const data: GraphData & any = {
       like_mean: 5.534798534798535,
       like_sum: 1511,
       id_name: "\ud22c\ub7fd\ub9d8",
-      category: "\ud22c\ub7fd\ub9d8",
+      category: 0,
       id: "/users/XGtJQY",
     },
     {
@@ -3385,7 +3382,7 @@ const data: GraphData & any = {
       like_mean: 86.35714285714286,
       like_sum: 1209,
       id_name: "alookso \ud50c\ub7ab\ud3fc\ud300",
-      category: "alookso \ud50c\ub7ab\ud3fc\ud300",
+      category: 0,
       id: "/users/bvZt3k",
     },
     {
@@ -3398,7 +3395,7 @@ const data: GraphData & any = {
       like_mean: 124.5,
       like_sum: 996,
       id_name: "\uad8c\uc624\ud604",
-      category: "\uad8c\uc624\ud604",
+      category: 0,
       id: "/users/851tJ8",
     },
     {
@@ -3411,7 +3408,7 @@ const data: GraphData & any = {
       like_mean: 1.1851851851851851,
       like_sum: 32,
       id_name: "\ud30c\ub974",
-      category: "\ud30c\ub974",
+      category: 1,
       id: "/users/QPtXQZ",
     },
     {
@@ -3424,7 +3421,7 @@ const data: GraphData & any = {
       like_mean: 4.0,
       like_sum: 292,
       id_name: "\ud314\uc0c9\uc870",
-      category: "\ud314\uc0c9\uc870",
+      category: 2,
       id: "/users/9YtGEZ",
     },
     {
@@ -3437,7 +3434,7 @@ const data: GraphData & any = {
       like_mean: 1.8,
       like_sum: 18,
       id_name: "\uad6c\ub984\ube75",
-      category: "\uad6c\ub984\ube75",
+      category: 3,
       id: "/users/Ogt5vQ",
     },
     {
@@ -3450,7 +3447,7 @@ const data: GraphData & any = {
       like_mean: 1.6,
       like_sum: 88,
       id_name: "\uc5d8\ub9ac\uc544",
-      category: "\uc5d8\ub9ac\uc544",
+      category: 2,
       id: "/users/51tXOz",
     },
     {
@@ -3463,7 +3460,7 @@ const data: GraphData & any = {
       like_mean: 2.303030303030303,
       like_sum: 76,
       id_name: "\uba85\uc5b8\uc694\uc815",
-      category: "\uba85\uc5b8\uc694\uc815",
+      category: 2,
       id: "/users/jltMdA",
     },
     {
@@ -3476,7 +3473,7 @@ const data: GraphData & any = {
       like_mean: 3.269230769230769,
       like_sum: 425,
       id_name: "\ub2f9\ub2f9\ud574\uc9c0\uc790",
-      category: "\ub2f9\ub2f9\ud574\uc9c0\uc790",
+      category: 2,
       id: "/users/dQtNgp",
     },
     {
@@ -3489,7 +3486,7 @@ const data: GraphData & any = {
       like_mean: 3.230769230769231,
       like_sum: 210,
       id_name: "\ud558\ub8e8",
-      category: "\ud558\ub8e8",
+      category: 2,
       id: "/users/eNtKlZ",
     },
     {
@@ -3502,7 +3499,7 @@ const data: GraphData & any = {
       like_mean: 5.195876288659794,
       like_sum: 1008,
       id_name: "\ud558\ub8e8\uc0b4\uc774",
-      category: "\ud558\ub8e8\uc0b4\uc774",
+      category: 3,
       id: "/users/k6tolj",
     },
     {
@@ -3515,7 +3512,7 @@ const data: GraphData & any = {
       like_mean: 8.802469135802468,
       like_sum: 1426,
       id_name: "\ud558\uc57c\ub2c8",
-      category: "\ud558\uc57c\ub2c8",
+      category: 2,
       id: "/users/Dot0wz",
     },
     {
@@ -3528,7 +3525,7 @@ const data: GraphData & any = {
       like_mean: 7.461538461538462,
       like_sum: 194,
       id_name: "\ud55c\uc5ec\ub984",
-      category: "\ud55c\uc5ec\ub984",
+      category: 1,
       id: "/users/4WtoKP",
     },
     {
@@ -3541,7 +3538,7 @@ const data: GraphData & any = {
       like_mean: 1.6511627906976745,
       like_sum: 497,
       id_name: "\ud55c\uc9c0\ub2c8",
-      category: "\ud55c\uc9c0\ub2c8",
+      category: 2,
       id: "/users/ZBtK35",
     },
     {
@@ -3554,7 +3551,7 @@ const data: GraphData & any = {
       like_mean: 2.190871369294606,
       like_sum: 528,
       id_name: "\ubbf8\uc18c",
-      category: "\ubbf8\uc18c",
+      category: 2,
       id: "/users/6mtzp0",
     },
     {
@@ -3567,7 +3564,7 @@ const data: GraphData & any = {
       like_mean: 2.5126050420168067,
       like_sum: 299,
       id_name: "\uc18c\ud6ac",
-      category: "\uc18c\ud6ac",
+      category: 1,
       id: "/users/0BtW71",
     },
     {
@@ -3580,7 +3577,7 @@ const data: GraphData & any = {
       like_mean: 2.489795918367347,
       like_sum: 244,
       id_name: "\ud589\ubcf5\uc774 \ubb34\uc5c7\uc77c\uae4c",
-      category: "\ud589\ubcf5\uc774 \ubb34\uc5c7\uc77c\uae4c",
+      category: 5,
       id: "/users/51tw27",
     },
     {
@@ -3593,7 +3590,7 @@ const data: GraphData & any = {
       like_mean: 4.132450331125828,
       like_sum: 624,
       id_name: "\ud589\ubcf5\ud55c\uc5ec\uc790",
-      category: "\ud589\ubcf5\ud55c\uc5ec\uc790",
+      category: 3,
       id: "/users/JptweM",
     },
     {
@@ -3606,7 +3603,7 @@ const data: GraphData & any = {
       like_mean: 7.088235294117647,
       like_sum: 723,
       id_name: "33\ubc14\ub2e4\ub9d8",
-      category: "33\ubc14\ub2e4\ub9d8",
+      category: 4,
       id: "/users/znt3o5",
     },
     {
@@ -3619,7 +3616,7 @@ const data: GraphData & any = {
       like_mean: 10.492753623188406,
       like_sum: 724,
       id_name: "\ud76c\uc218",
-      category: "\ud76c\uc218",
+      category: 0,
       id: "/users/a3t5p1",
     },
     {
@@ -3632,7 +3629,7 @@ const data: GraphData & any = {
       like_mean: 4.0,
       like_sum: 36,
       id_name: "\uc774\uc900\uc900",
-      category: "\uc774\uc900\uc900",
+      category: 5,
       id: "/users/JptALV",
     },
     {
@@ -3645,7 +3642,7 @@ const data: GraphData & any = {
       like_mean: 2.68,
       like_sum: 67,
       id_name: "\uc885\uc8fc",
-      category: "\uc885\uc8fc",
+      category: 5,
       id: "/users/ozt0DD",
     },
     {
@@ -3658,7 +3655,7 @@ const data: GraphData & any = {
       like_mean: 2.8666666666666667,
       like_sum: 86,
       id_name: "\uc2ec\ud638\uc900",
-      category: "\uc2ec\ud638\uc900",
+      category: 5,
       id: "/users/YEtgz6",
     },
     {
@@ -3671,7 +3668,7 @@ const data: GraphData & any = {
       like_mean: 4.0,
       like_sum: 164,
       id_name: "\ucd5c\uc724\uc815",
-      category: "\ucd5c\uc724\uc815",
+      category: 0,
       id: "/users/eNtWKM",
     },
     {
@@ -3684,7 +3681,7 @@ const data: GraphData & any = {
       like_mean: 1.8676470588235294,
       like_sum: 127,
       id_name: "\ub9c8\ub2c8\uc694>.<",
-      category: "\ub9c8\ub2c8\uc694>.<",
+      category: 2,
       id: "/users/DotkW3",
     },
     {
@@ -3697,7 +3694,7 @@ const data: GraphData & any = {
       like_mean: 2.5555555555555554,
       like_sum: 69,
       id_name: "Sarah Jang",
-      category: "Sarah Jang",
+      category: 4,
       id: "/users/GDtoem",
     },
     {
@@ -3710,7 +3707,7 @@ const data: GraphData & any = {
       like_mean: 2.3333333333333335,
       like_sum: 21,
       id_name: "James Jang",
-      category: "James Jang",
+      category: 5,
       id: "/users/ygtG1j",
     },
     {
@@ -3723,7 +3720,7 @@ const data: GraphData & any = {
       like_mean: 2.932584269662921,
       like_sum: 522,
       id_name: "\ub098\ub97c \uc0ac\ub791\ud558\uc790",
-      category: "\ub098\ub97c \uc0ac\ub791\ud558\uc790",
+      category: 2,
       id: "/users/KktZlw",
     },
     {
@@ -3736,7 +3733,7 @@ const data: GraphData & any = {
       like_mean: 2.098159509202454,
       like_sum: 342,
       id_name: "YoungRi",
-      category: "YoungRi",
+      category: 3,
       id: "/users/1RtkeP",
     },
     {
@@ -3749,7 +3746,7 @@ const data: GraphData & any = {
       like_mean: 2.3488372093023258,
       like_sum: 202,
       id_name: "\uafc8\uafb8\ub294\ub0a8\uc790",
-      category: "\uafc8\uafb8\ub294\ub0a8\uc790",
+      category: 4,
       id: "/users/k6tLwR",
     },
     {
@@ -3762,7 +3759,7 @@ const data: GraphData & any = {
       like_mean: 4.262295081967213,
       like_sum: 520,
       id_name: "\uc720\uc720\ubbf8",
-      category: "\uc720\uc720\ubbf8",
+      category: 4,
       id: "/users/notoo5",
     },
     {
@@ -3775,7 +3772,7 @@ const data: GraphData & any = {
       like_mean: 7.0625,
       like_sum: 339,
       id_name: "\ub611\uc21c\uc774",
-      category: "\ub611\uc21c\uc774",
+      category: 4,
       id: "/users/LZtQJP",
     },
     {
@@ -3788,7 +3785,7 @@ const data: GraphData & any = {
       like_mean: 3.396551724137931,
       like_sum: 197,
       id_name: "\uc314\ubbf8",
-      category: "\uc314\ubbf8",
+      category: 1,
       id: "/users/WatgPz",
     },
     {
@@ -3801,7 +3798,7 @@ const data: GraphData & any = {
       like_mean: 3.16,
       like_sum: 79,
       id_name: "Boaz",
-      category: "Boaz",
+      category: 2,
       id: "/users/jltNny",
     },
     {
@@ -3814,7 +3811,7 @@ const data: GraphData & any = {
       like_mean: 1.1818181818181819,
       like_sum: 13,
       id_name: "BM",
-      category: "BM",
+      category: 3,
       id: "/users/mJtjVg",
     },
     {
@@ -3827,7 +3824,7 @@ const data: GraphData & any = {
       like_mean: 3.2025316455696204,
       like_sum: 253,
       id_name: "\uc0e4\uc774\ub2dd\ubd04",
-      category: "\uc0e4\uc774\ub2dd\ubd04",
+      category: 5,
       id: "/users/Jpt0Zl",
     },
     {
@@ -3840,7 +3837,7 @@ const data: GraphData & any = {
       like_mean: 1.848623853211009,
       like_sum: 403,
       id_name: "\uaf43\ub4e4\uc5d0\uac8c \ud76c\ub9dd\uc744",
-      category: "\uaf43\ub4e4\uc5d0\uac8c \ud76c\ub9dd\uc744",
+      category: 3,
       id: "/users/EztkZM",
     },
     {
@@ -3853,7 +3850,7 @@ const data: GraphData & any = {
       like_mean: 1.25,
       like_sum: 120,
       id_name: "\uc5ec\uc6b8\uc544",
-      category: "\uc5ec\uc6b8\uc544",
+      category: 1,
       id: "/users/VAtmnV",
     },
     {
@@ -3866,7 +3863,7 @@ const data: GraphData & any = {
       like_mean: 11.351851851851851,
       like_sum: 613,
       id_name: "\ub09c \ub098\uc57c",
-      category: "\ub09c \ub098\uc57c",
+      category: 2,
       id: "/users/BetAVB",
     },
     {
@@ -3879,7 +3876,7 @@ const data: GraphData & any = {
       like_mean: 2.323943661971831,
       like_sum: 495,
       id_name: "\uc7ac\ud0dc\ud06c\uc758 \ud558\ub8e8",
-      category: "\uc7ac\ud0dc\ud06c\uc758 \ud558\ub8e8",
+      category: 3,
       id: "/users/letYv2",
     },
     {
@@ -3892,7 +3889,7 @@ const data: GraphData & any = {
       like_mean: 2.8796992481203008,
       like_sum: 383,
       id_name: "Junse",
-      category: "Junse",
+      category: 1,
       id: "/users/r9tkgp",
     },
     {
@@ -3905,7 +3902,7 @@ const data: GraphData & any = {
       like_mean: 3.25,
       like_sum: 312,
       id_name: "\ub530\uc2a4\ud55c\ud587\uc0b4",
-      category: "\ub530\uc2a4\ud55c\ud587\uc0b4",
+      category: 3,
       id: "/users/ZBtkmn",
     },
     {
@@ -3918,7 +3915,7 @@ const data: GraphData & any = {
       like_mean: 3.8469387755102042,
       like_sum: 377,
       id_name: "\uc88b\uc740\uc0dd\uac01",
-      category: "\uc88b\uc740\uc0dd\uac01",
+      category: 2,
       id: "/users/ozt7wg",
     },
     {
@@ -3931,7 +3928,7 @@ const data: GraphData & any = {
       like_mean: 2.4057971014492754,
       like_sum: 166,
       id_name: "\uacf5\ud558\ube48",
-      category: "\uacf5\ud558\ube48",
+      category: 2,
       id: "/users/prt0oL",
     },
     {
@@ -3944,7 +3941,7 @@ const data: GraphData & any = {
       like_mean: 3.2,
       like_sum: 128,
       id_name: "\uc724\ubbf8\ub798",
-      category: "\uc724\ubbf8\ub798",
+      category: 2,
       id: "/users/dQtN4J",
     },
     {
@@ -3957,7 +3954,7 @@ const data: GraphData & any = {
       like_mean: 6.2368421052631575,
       like_sum: 237,
       id_name: "\uc9c0\uc608\ube48",
-      category: "\uc9c0\uc608\ube48",
+      category: 0,
       id: "/users/wVtQpA",
     },
     {
@@ -3970,7 +3967,7 @@ const data: GraphData & any = {
       like_mean: 2.393939393939394,
       like_sum: 158,
       id_name: "\ub178\ub2c8",
-      category: "\ub178\ub2c8",
+      category: 3,
       id: "/users/wVtK0m",
     },
     {
@@ -3983,7 +3980,7 @@ const data: GraphData & any = {
       like_mean: 2.329842931937173,
       like_sum: 890,
       id_name: "\uc3d8\ud53c\uc544",
-      category: "\uc3d8\ud53c\uc544",
+      category: 2,
       id: "/users/ygtPml",
     },
     {
@@ -3996,7 +3993,7 @@ const data: GraphData & any = {
       like_mean: 3.3698630136986303,
       like_sum: 246,
       id_name: "\uc774\ud55c\uc5ed",
-      category: "\uc774\ud55c\uc5ed",
+      category: 1,
       id: "/users/0BtWV5",
     },
     {
@@ -4009,7 +4006,7 @@ const data: GraphData & any = {
       like_mean: 3.4278350515463916,
       like_sum: 665,
       id_name: "\ub530\uc5bc",
-      category: "\ub530\uc5bc",
+      category: 2,
       id: "/users/GDtYav",
     },
     {
@@ -4022,7 +4019,7 @@ const data: GraphData & any = {
       like_mean: 3.393258426966292,
       like_sum: 302,
       id_name: "\ub465\uadfc\ub2ec\uc774 \ucc3d\uacf5\uc5d0",
-      category: "\ub465\uadfc\ub2ec\uc774 \ucc3d\uacf5\uc5d0",
+      category: 5,
       id: "/users/vZtolv",
     },
     {
@@ -4035,7 +4032,7 @@ const data: GraphData & any = {
       like_mean: 2.445945945945946,
       like_sum: 181,
       id_name: "\ubc15\uc601\uc8fc",
-      category: "\ubc15\uc601\uc8fc",
+      category: 4,
       id: "/users/LZtQV4",
     },
     {
@@ -4048,7 +4045,7 @@ const data: GraphData & any = {
       like_mean: 1.8333333333333333,
       like_sum: 88,
       id_name: "\uc774\ud558\ub298",
-      category: "\uc774\ud558\ub298",
+      category: 4,
       id: "/users/jltQLo",
     },
     {
@@ -4061,7 +4058,7 @@ const data: GraphData & any = {
       like_mean: 4.090909090909091,
       like_sum: 630,
       id_name: "\ud22c\uc7a1\uc2a4",
-      category: "\ud22c\uc7a1\uc2a4",
+      category: 4,
       id: "/users/ZBt725",
     },
     {
@@ -4074,7 +4071,7 @@ const data: GraphData & any = {
       like_mean: 2.0082644628099175,
       like_sum: 243,
       id_name: "\uc591\uc9c0\ubbf8",
-      category: "\uc591\uc9c0\ubbf8",
+      category: 3,
       id: "/users/LZtvK5",
     },
     {
@@ -4087,7 +4084,7 @@ const data: GraphData & any = {
       like_mean: 2.1766233766233767,
       like_sum: 838,
       id_name: "\uae40\uc778\ud638",
-      category: "\uae40\uc778\ud638",
+      category: 1,
       id: "/users/XGtLOZ",
     },
     {
@@ -4100,7 +4097,7 @@ const data: GraphData & any = {
       like_mean: 16.181818181818183,
       like_sum: 356,
       id_name: "Somewon Yoon",
-      category: "Somewon Yoon",
+      category: 0,
       id: "/users/8Ogtna",
     },
     {
@@ -4113,7 +4110,7 @@ const data: GraphData & any = {
       like_mean: 2.388571428571429,
       like_sum: 418,
       id_name: "\uae40\uacbd\uc740",
-      category: "\uae40\uacbd\uc740",
+      category: 1,
       id: "/users/51tY7W",
     },
     {
@@ -4126,7 +4123,7 @@ const data: GraphData & any = {
       like_mean: 24.181818181818183,
       like_sum: 266,
       id_name: "\ud76c",
-      category: "\ud76c",
+      category: 0,
       id: "/users/qLZtDZ",
     },
     {
@@ -4139,7 +4136,7 @@ const data: GraphData & any = {
       like_mean: 1.6422018348623852,
       like_sum: 179,
       id_name: "\uc774\uc601\uc9c4",
-      category: "\uc774\uc601\uc9c4",
+      category: 1,
       id: "/users/RKt4jk",
     },
     {
@@ -4152,7 +4149,7 @@ const data: GraphData & any = {
       like_mean: 4.0,
       like_sum: 208,
       id_name: "\uc784",
-      category: "\uc784",
+      category: 2,
       id: "/users/jltMW3",
     },
     {
@@ -4165,7 +4162,7 @@ const data: GraphData & any = {
       like_mean: 2.3469387755102042,
       like_sum: 115,
       id_name: "\uc601\uadf8\ub294 \ub098\ubb34 \uc5f4\ub9e4",
-      category: "\uc601\uadf8\ub294 \ub098\ubb34 \uc5f4\ub9e4",
+      category: 1,
       id: "/users/KktPYN",
     },
     {
@@ -4178,7 +4175,7 @@ const data: GraphData & any = {
       like_mean: 2.685595567867036,
       like_sum: 1939,
       id_name: "\uc774\uc7ac\uacbd",
-      category: "\uc774\uc7ac\uacbd",
+      category: 3,
       id: "/users/znt2mv",
     },
     {
@@ -4191,7 +4188,7 @@ const data: GraphData & any = {
       like_mean: 3.365740740740741,
       like_sum: 727,
       id_name: "\ub9c8\ub8e8\ucf54",
-      category: "\ub9c8\ub8e8\ucf54",
+      category: 5,
       id: "/users/Wat2kg",
     },
     {
@@ -4204,7 +4201,7 @@ const data: GraphData & any = {
       like_mean: 1.5517241379310345,
       like_sum: 90,
       id_name: "\uc9c4\uc2e4\ud55c",
-      category: "\uc9c4\uc2e4\ud55c",
+      category: 1,
       id: "/users/QPtB2D",
     },
     {
@@ -4217,7 +4214,7 @@ const data: GraphData & any = {
       like_mean: 1.5,
       like_sum: 24,
       id_name: "\ubc00\ud06c\ud2f0",
-      category: "\ubc00\ud06c\ud2f0",
+      category: 4,
       id: "/users/3MtOlY",
     },
     {
@@ -4230,7 +4227,7 @@ const data: GraphData & any = {
       like_mean: 1.3333333333333333,
       like_sum: 56,
       id_name: "\ud76c\ubd09\uc774",
-      category: "\ud76c\ubd09\uc774",
+      category: 4,
       id: "/users/QPtmy0",
     },
     {
@@ -4243,7 +4240,7 @@ const data: GraphData & any = {
       like_mean: 1.6,
       like_sum: 64,
       id_name: "\uc815\uacbd\ubbf8",
-      category: "\uc815\uacbd\ubbf8",
+      category: 3,
       id: "/users/Bet49w",
     },
     {
@@ -4256,7 +4253,7 @@ const data: GraphData & any = {
       like_mean: 2.466666666666667,
       like_sum: 222,
       id_name: "\uae00\uc7c1\uc774",
-      category: "\uae00\uc7c1\uc774",
+      category: 2,
       id: "/users/OgtXzv",
     },
     {
@@ -4269,7 +4266,7 @@ const data: GraphData & any = {
       like_mean: 2.085714285714286,
       like_sum: 73,
       id_name: "\uae40\uc9c4\uc131",
-      category: "\uae40\uc9c4\uc131",
+      category: 5,
       id: "/users/a3tAnv",
     },
     {
@@ -4282,7 +4279,7 @@ const data: GraphData & any = {
       like_mean: 1.3529411764705883,
       like_sum: 23,
       id_name: "ctrl+a",
-      category: "ctrl+a",
+      category: 3,
       id: "/users/ZBtM7d",
     },
     {
@@ -4295,7 +4292,7 @@ const data: GraphData & any = {
       like_mean: 1.4666666666666666,
       like_sum: 22,
       id_name: "\uc7a0\ub9cc\ubcf4",
-      category: "\uc7a0\ub9cc\ubcf4",
+      category: 3,
       id: "/users/k6tA3P",
     },
     {
@@ -4308,7 +4305,7 @@ const data: GraphData & any = {
       like_mean: 6.603351955307263,
       like_sum: 1182,
       id_name: "\ucd5c\uc120\uc601",
-      category: "\ucd5c\uc120\uc601",
+      category: 0,
       id: "/users/20tg7l",
     },
     {
@@ -4321,7 +4318,7 @@ const data: GraphData & any = {
       like_mean: 3.1231884057971016,
       like_sum: 431,
       id_name: "\ud604\uc9c0\uc778",
-      category: "\ud604\uc9c0\uc778",
+      category: 2,
       id: "/users/XGtPnG",
     },
     {
@@ -4334,7 +4331,7 @@ const data: GraphData & any = {
       like_mean: 9.0,
       like_sum: 648,
       id_name: "\uc11c\uc5f0",
-      category: "\uc11c\uc5f0",
+      category: 0,
       id: "/users/0BtpWz",
     },
     {
@@ -4348,8 +4345,7 @@ const data: GraphData & any = {
       like_sum: 190,
       id_name:
         "\uacbd\uc81c\ub9c8\ucf13(\uc99d\uc2dc,\uc554\ud638\ud654\ud3d0)",
-      category:
-        "\uacbd\uc81c\ub9c8\ucf13(\uc99d\uc2dc,\uc554\ud638\ud654\ud3d0)",
+      category: 3,
       id: "/users/MVtGXK",
     },
     {
@@ -4362,7 +4358,7 @@ const data: GraphData & any = {
       like_mean: 1.5454545454545454,
       like_sum: 17,
       id_name: "\ub9e5\uc8fc\ud55c\uc794\uc758 \uc5ec\uc720",
-      category: "\ub9e5\uc8fc\ud55c\uc794\uc758 \uc5ec\uc720",
+      category: 4,
       id: "/users/QPtadd",
     },
     {
@@ -4375,7 +4371,7 @@ const data: GraphData & any = {
       like_mean: 2.593220338983051,
       like_sum: 153,
       id_name: "\ub7ed\ud0a4\ud2b8\ub9ac",
-      category: "\ub7ed\ud0a4\ud2b8\ub9ac",
+      category: 1,
       id: "/users/jltwZX",
     },
     {
@@ -4388,7 +4384,7 @@ const data: GraphData & any = {
       like_mean: 4.6,
       like_sum: 161,
       id_name: "\uc131\uacf5\uc790",
-      category: "\uc131\uacf5\uc790",
+      category: 3,
       id: "/users/znt24J",
     },
     {
@@ -4401,7 +4397,7 @@ const data: GraphData & any = {
       like_mean: 4.584615384615384,
       like_sum: 298,
       id_name: "\ubbfc\uacbd",
-      category: "\ubbfc\uacbd",
+      category: 3,
       id: "/users/a3t0P9",
     },
     {
@@ -4414,7 +4410,7 @@ const data: GraphData & any = {
       like_mean: 2.6076923076923078,
       like_sum: 339,
       id_name: "\uc0ac\ub791\uc774",
-      category: "\uc0ac\ub791\uc774",
+      category: 3,
       id: "/users/ygtwQj",
     },
     {
@@ -4427,7 +4423,7 @@ const data: GraphData & any = {
       like_mean: 1.3333333333333333,
       like_sum: 16,
       id_name: "\uace0\ub3c5\ud55c \uc778\ud504\ud53c",
-      category: "\uace0\ub3c5\ud55c \uc778\ud504\ud53c",
+      category: 4,
       id: "/users/1RtYeK",
     },
     {
@@ -4440,7 +4436,7 @@ const data: GraphData & any = {
       like_mean: 1.9047619047619047,
       like_sum: 40,
       id_name: "\uaca8\uc6b8\uc11c\ub9ac",
-      category: "\uaca8\uc6b8\uc11c\ub9ac",
+      category: 3,
       id: "/users/eNtGZw",
     },
     {
@@ -4453,7 +4449,7 @@ const data: GraphData & any = {
       like_mean: 2.0303030303030303,
       like_sum: 134,
       id_name: "\ud55c\uacbd\uc8fc",
-      category: "\ud55c\uacbd\uc8fc",
+      category: 4,
       id: "/users/A6tN5o",
     },
     {
@@ -4466,7 +4462,7 @@ const data: GraphData & any = {
       like_mean: 3.9743589743589745,
       like_sum: 155,
       id_name: "\ud64d\uc9f1",
-      category: "\ud64d\uc9f1",
+      category: 4,
       id: "/users/GDtZaA",
     },
     {
@@ -4479,7 +4475,7 @@ const data: GraphData & any = {
       like_mean: 3.1228070175438596,
       like_sum: 178,
       id_name: "\ucd5c\uc885\uc724",
-      category: "\ucd5c\uc885\uc724",
+      category: 4,
       id: "/users/4WtVJ3",
     },
     {
@@ -4492,7 +4488,7 @@ const data: GraphData & any = {
       like_mean: 3.814814814814815,
       like_sum: 309,
       id_name: "\ubc30\ubd80\ub978\ub625\uac1c",
-      category: "\ubc30\ubd80\ub978\ub625\uac1c",
+      category: 3,
       id: "/users/3Mtryw",
     },
     {
@@ -4505,7 +4501,7 @@ const data: GraphData & any = {
       like_mean: 10.127659574468085,
       like_sum: 476,
       id_name: "\uc548\u3141\u314a",
-      category: "\uc548\u3141\u314a",
+      category: 4,
       id: "/users/letaX5",
     },
     {
@@ -4518,7 +4514,7 @@ const data: GraphData & any = {
       like_mean: 2.6126126126126126,
       like_sum: 290,
       id_name: "genies \uc9c0\ub2c8\uc528",
-      category: "genies \uc9c0\ub2c8\uc528",
+      category: 2,
       id: "/users/73tojE",
     },
     {
@@ -4531,7 +4527,7 @@ const data: GraphData & any = {
       like_mean: 2.103448275862069,
       like_sum: 61,
       id_name: "\ucc10\ucc10",
-      category: "\ucc10\ucc10",
+      category: 3,
       id: "/users/Ogt5Ko",
     },
     {
@@ -4544,7 +4540,7 @@ const data: GraphData & any = {
       like_mean: 2.742424242424242,
       like_sum: 543,
       id_name: "Yeon",
-      category: "Yeon",
+      category: 4,
       id: "/users/LZtQjo",
     },
     {
@@ -4557,7 +4553,7 @@ const data: GraphData & any = {
       like_mean: 1.479020979020979,
       like_sum: 423,
       id_name: "\uc774\ud604\uc6b0",
-      category: "\uc774\ud604\uc6b0",
+      category: 2,
       id: "/users/N4tnlg",
     },
     {
@@ -4570,7 +4566,7 @@ const data: GraphData & any = {
       like_mean: 5.3125,
       like_sum: 255,
       id_name: "\uc624\uace1\ub098\ubb34",
-      category: "\uc624\uace1\ub098\ubb34",
+      category: 2,
       id: "/users/73tjvJ",
     },
     {
@@ -4583,7 +4579,7 @@ const data: GraphData & any = {
       like_mean: 2.3421052631578947,
       like_sum: 89,
       id_name: "\ub514\ud6a8\ub2dd",
-      category: "\ub514\ud6a8\ub2dd",
+      category: 5,
       id: "/users/RKtYYg",
     },
     {
@@ -4596,7 +4592,7 @@ const data: GraphData & any = {
       like_mean: 3.031413612565445,
       like_sum: 579,
       id_name: "\ub300\ud559\uc6d0\uc0dd",
-      category: "\ub300\ud559\uc6d0\uc0dd",
+      category: 4,
       id: "/users/OgtwKK",
     },
     {
@@ -4609,7 +4605,7 @@ const data: GraphData & any = {
       like_mean: 1.8333333333333333,
       like_sum: 88,
       id_name: "\uc8fc\ub2e4\ud574",
-      category: "\uc8fc\ub2e4\ud574",
+      category: 4,
       id: "/users/6mtmWp",
     },
     {
@@ -4622,7 +4618,7 @@ const data: GraphData & any = {
       like_mean: 3.2752293577981653,
       like_sum: 357,
       id_name: "\uc608\uc608\ud30c\ud30c",
-      category: "\uc608\uc608\ud30c\ud30c",
+      category: 4,
       id: "/users/N4tgQV",
     },
     {
@@ -4635,7 +4631,7 @@ const data: GraphData & any = {
       like_mean: 3.609375,
       like_sum: 231,
       id_name: "\uc2ec\ubf40",
-      category: "\uc2ec\ubf40",
+      category: 2,
       id: "/users/Bet55p",
     },
     {
@@ -4648,7 +4644,7 @@ const data: GraphData & any = {
       like_mean: 2.7480916030534353,
       like_sum: 360,
       id_name: "\ud589\ubcf5\ud55c\ubd80\uc790",
-      category: "\ud589\ubcf5\ud55c\ubd80\uc790",
+      category: 1,
       id: "/users/vZtgWY",
     },
     {
@@ -4661,7 +4657,7 @@ const data: GraphData & any = {
       like_mean: 1.088235294117647,
       like_sum: 185,
       id_name: "\uac15\ud0c8",
-      category: "\uac15\ud0c8",
+      category: 4,
       id: "/users/r9t627",
     },
     {
@@ -4674,7 +4670,7 @@ const data: GraphData & any = {
       like_mean: 1.7916666666666667,
       like_sum: 215,
       id_name: "\uae40\uc18c\ub77c",
-      category: "\uae40\uc18c\ub77c",
+      category: 4,
       id: "/users/51tEQz",
     },
     {
@@ -4687,7 +4683,7 @@ const data: GraphData & any = {
       like_mean: 3.9505494505494507,
       like_sum: 719,
       id_name: "\uac00\ub791\ube44",
-      category: "\uac00\ub791\ube44",
+      category: 1,
       id: "/users/N4tA4a",
     },
     {
@@ -4700,7 +4696,7 @@ const data: GraphData & any = {
       like_mean: 5.791666666666667,
       like_sum: 139,
       id_name: "\ud30c\ub85c",
-      category: "\ud30c\ub85c",
+      category: 1,
       id: "/users/1Rt5m4",
     },
     {
@@ -4713,7 +4709,7 @@ const data: GraphData & any = {
       like_mean: 1.5,
       like_sum: 30,
       id_name: "\ub178\ubc14",
-      category: "\ub178\ubc14",
+      category: 2,
       id: "/users/MVtELo",
     },
     {
@@ -4726,7 +4722,7 @@ const data: GraphData & any = {
       like_mean: 2.6990291262135924,
       like_sum: 278,
       id_name: "\uade4\ud0f1\uc774",
-      category: "\uade4\ud0f1\uc774",
+      category: 2,
       id: "/users/ozt7yA",
     },
     {
@@ -4739,7 +4735,7 @@ const data: GraphData & any = {
       like_mean: 1.832699619771863,
       like_sum: 482,
       id_name: "\ub618\uc774\uc5c4\ub9c8",
-      category: "\ub618\uc774\uc5c4\ub9c8",
+      category: 1,
       id: "/users/VAtne7",
     },
     {
@@ -4752,7 +4748,7 @@ const data: GraphData & any = {
       like_mean: 3.5806451612903225,
       like_sum: 333,
       id_name: "\ud560\ub9e4\ud1a0\ub07c",
-      category: "\ud560\ub9e4\ud1a0\ub07c",
+      category: 2,
       id: "/users/RKtPVE",
     },
     {
@@ -4765,7 +4761,7 @@ const data: GraphData & any = {
       like_mean: 1.5490196078431373,
       like_sum: 79,
       id_name: "\uc2a4\ub9ac\uc57c",
-      category: "\uc2a4\ub9ac\uc57c",
+      category: 1,
       id: "/users/MVtBl5",
     },
     {
@@ -4778,7 +4774,7 @@ const data: GraphData & any = {
       like_mean: 3.980769230769231,
       like_sum: 207,
       id_name: "BBANG",
-      category: "BBANG",
+      category: 0,
       id: "/users/nota4p",
     },
     {
@@ -4791,7 +4787,7 @@ const data: GraphData & any = {
       like_mean: 1.8,
       like_sum: 36,
       id_name: "\uad6c\uc120\uc0dd",
-      category: "\uad6c\uc120\uc0dd",
+      category: 0,
       id: "/users/vZtnpv",
     },
     {
@@ -4804,7 +4800,7 @@ const data: GraphData & any = {
       like_mean: 2.5,
       like_sum: 55,
       id_name: "\ud551\ud06c",
-      category: "\ud551\ud06c",
+      category: 0,
       id: "/users/0Btp3Y",
     },
     {
@@ -4817,7 +4813,7 @@ const data: GraphData & any = {
       like_mean: 6.0,
       like_sum: 156,
       id_name: "\uc5bc\ub8e9\ub9d0",
-      category: "\uc5bc\ub8e9\ub9d0",
+      category: 0,
       id: "/users/gvtr97",
     },
     {
@@ -4830,7 +4826,7 @@ const data: GraphData & any = {
       like_mean: 3.1777777777777776,
       like_sum: 286,
       id_name: "\uac15\uc2e0\uaddc",
-      category: "\uac15\uc2e0\uaddc",
+      category: 0,
       id: "/users/b20tmm",
     },
     {
@@ -4843,7 +4839,7 @@ const data: GraphData & any = {
       like_mean: 2.0526315789473686,
       like_sum: 39,
       id_name: "\uc704\ub85c",
-      category: "\uc704\ub85c",
+      category: 0,
       id: "/users/51tVW3",
     },
     {
@@ -4856,7 +4852,7 @@ const data: GraphData & any = {
       like_mean: 1.7142857142857142,
       like_sum: 12,
       id_name: "\uc57c\ud22c",
-      category: "\uc57c\ud22c",
+      category: 0,
       id: "/users/GDtaKX",
     },
     {
@@ -4869,7 +4865,7 @@ const data: GraphData & any = {
       like_mean: 8.076923076923077,
       like_sum: 105,
       id_name: "Julie",
-      category: "Julie",
+      category: 0,
       id: "/users/dQtMPk",
     },
     {
@@ -4882,7 +4878,7 @@ const data: GraphData & any = {
       like_mean: 12.6875,
       like_sum: 203,
       id_name: "\uae40\uc6d0\uad6d",
-      category: "\uae40\uc6d0\uad6d",
+      category: 0,
       id: "/users/LZtNKQ",
     },
     {
@@ -4895,7 +4891,7 @@ const data: GraphData & any = {
       like_mean: 2.5714285714285716,
       like_sum: 36,
       id_name: "\uc870\uc601\uc8fc",
-      category: "\uc870\uc601\uc8fc",
+      category: 0,
       id: "/users/zntRA4",
     },
     {
@@ -4908,7 +4904,7 @@ const data: GraphData & any = {
       like_mean: 2.3902439024390243,
       like_sum: 98,
       id_name: "\ub4dc\ub9bc\uc6cc\ucee4",
-      category: "\ub4dc\ub9bc\uc6cc\ucee4",
+      category: 0,
       id: "/users/N4tLVJ",
     },
     {
@@ -4921,7 +4917,7 @@ const data: GraphData & any = {
       like_mean: 1.1428571428571428,
       like_sum: 8,
       id_name: "ManfromMars",
-      category: "ManfromMars",
+      category: 0,
       id: "/users/a3tOOB",
     },
     {
@@ -4934,7 +4930,7 @@ const data: GraphData & any = {
       like_mean: 8.31578947368421,
       like_sum: 158,
       id_name: "\uc724\ud61c\uc790",
-      category: "\uc724\ud61c\uc790",
+      category: 0,
       id: "/users/mJt1JV",
     },
     {
@@ -4947,7 +4943,7 @@ const data: GraphData & any = {
       like_mean: 8.208333333333334,
       like_sum: 788,
       id_name: "\uae40\ub3c4\uacbd",
-      category: "\uae40\ub3c4\uacbd",
+      category: 0,
       id: "/users/9YtZpw",
     },
     {
@@ -4960,7 +4956,7 @@ const data: GraphData & any = {
       like_mean: 4.454545454545454,
       like_sum: 49,
       id_name: "\uc9c1\uc7a5\uc778\uc544\uc800\uc528",
-      category: "\uc9c1\uc7a5\uc778\uc544\uc800\uc528",
+      category: 0,
       id: "/users/jlt04Z",
     },
     {
@@ -4973,7 +4969,7 @@ const data: GraphData & any = {
       like_mean: 4.363636363636363,
       like_sum: 144,
       id_name: "\ucd08\ucf54\ud30c\uc774",
-      category: "\ucd08\ucf54\ud30c\uc774",
+      category: 0,
       id: "/users/jltJWE",
     },
     {
@@ -4986,7 +4982,7 @@ const data: GraphData & any = {
       like_mean: 4.285714285714286,
       like_sum: 30,
       id_name: "\ubc38\ub77c\ub8e8",
-      category: "\ubc38\ub77c\ub8e8",
+      category: 0,
       id: "/users/RKt2Pa",
     },
     {
@@ -4999,7 +4995,7 @@ const data: GraphData & any = {
       like_mean: 4.130434782608695,
       like_sum: 95,
       id_name: "\ub0e5\uc774",
-      category: "\ub0e5\uc774",
+      category: 0,
       id: "/users/ZBtLRZ",
     },
     {
@@ -5012,7 +5008,7 @@ const data: GraphData & any = {
       like_mean: 1.8,
       like_sum: 27,
       id_name: "\uac15\ubbfc\uc900",
-      category: "\uac15\ubbfc\uc900",
+      category: 0,
       id: "/users/ZBtL21",
     },
     {
@@ -5025,7 +5021,7 @@ const data: GraphData & any = {
       like_mean: 11.394736842105264,
       like_sum: 433,
       id_name: "\uc774\uc138\ubaa8",
-      category: "\uc774\uc138\ubaa8",
+      category: 3,
       id: "/users/Kkt9Ml",
     },
     {
@@ -5038,7 +5034,7 @@ const data: GraphData & any = {
       like_mean: 1.0,
       like_sum: 62,
       id_name: "\ub7ed\ud0a4 Gee",
-      category: "\ub7ed\ud0a4 Gee",
+      category: 4,
       id: "/users/XGtY66",
     },
     {
@@ -5051,7 +5047,7 @@ const data: GraphData & any = {
       like_mean: 1.8666666666666667,
       like_sum: 28,
       id_name: "\ub808\uc624\uc9f1",
-      category: "\ub808\uc624\uc9f1",
+      category: 5,
       id: "/users/A6tKK9",
     },
     {
@@ -5064,7 +5060,7 @@ const data: GraphData & any = {
       like_mean: 2.3266666666666667,
       like_sum: 349,
       id_name: "\uc815\ubaa8",
-      category: "\uc815\ubaa8",
+      category: 2,
       id: "/users/VAtJ6l",
     },
     {
@@ -5077,7 +5073,7 @@ const data: GraphData & any = {
       like_mean: 2.765151515151515,
       like_sum: 365,
       id_name: "\ud589\ubcf5\ud55c\ud558\ub8e8",
-      category: "\ud589\ubcf5\ud55c\ud558\ub8e8",
+      category: 5,
       id: "/users/JptYoE",
     },
     {
@@ -5090,7 +5086,7 @@ const data: GraphData & any = {
       like_mean: 3.018867924528302,
       like_sum: 160,
       id_name: "\uc5b8\ud64d\uc2dc",
-      category: "\uc5b8\ud64d\uc2dc",
+      category: 2,
       id: "/users/N4tn1y",
     },
     {
@@ -5103,7 +5099,7 @@ const data: GraphData & any = {
       like_mean: 3.826530612244898,
       like_sum: 375,
       id_name: "\uc2dc\uc120\uae00",
-      category: "\uc2dc\uc120\uae00",
+      category: 2,
       id: "/users/OgtXJJ",
     },
     {
@@ -5116,7 +5112,7 @@ const data: GraphData & any = {
       like_mean: 2.185185185185185,
       like_sum: 59,
       id_name: "\uc218\uc2dc",
-      category: "\uc218\uc2dc",
+      category: 2,
       id: "/users/r9toMa",
     },
     {
@@ -5129,7 +5125,7 @@ const data: GraphData & any = {
       like_mean: 1.7582417582417582,
       like_sum: 160,
       id_name: "\uc0c8\uc580",
-      category: "\uc0c8\uc580",
+      category: 1,
       id: "/users/prtyal",
     },
     {
@@ -5142,7 +5138,7 @@ const data: GraphData & any = {
       like_mean: 1.241025641025641,
       like_sum: 242,
       id_name: "\uc3d8\uc3d8\ud55c \ud3c9\ubc94\ub140",
-      category: "\uc3d8\uc3d8\ud55c \ud3c9\ubc94\ub140",
+      category: 3,
       id: "/users/gvtKPo",
     },
     {
@@ -5155,7 +5151,7 @@ const data: GraphData & any = {
       like_mean: 2.6672727272727275,
       like_sum: 1467,
       id_name: "\ub450\ub465\ud0c1",
-      category: "\ub450\ub465\ud0c1",
+      category: 1,
       id: "/users/dQty5B",
     },
     {
@@ -5168,7 +5164,7 @@ const data: GraphData & any = {
       like_mean: 3.226086956521739,
       like_sum: 371,
       id_name: "GIGI PIAO",
-      category: "GIGI PIAO",
+      category: 4,
       id: "/users/dQtWRE",
     },
     {
@@ -5181,7 +5177,7 @@ const data: GraphData & any = {
       like_mean: 2.0588235294117645,
       like_sum: 35,
       id_name: "\ucfe4\ud30c",
-      category: "\ucfe4\ud30c",
+      category: 3,
       id: "/users/73t14D",
     },
     {
@@ -5194,7 +5190,7 @@ const data: GraphData & any = {
       like_mean: 7.488888888888889,
       like_sum: 337,
       id_name: "\ud587\ub2d8\ubc29\uae0b",
-      category: "\ud587\ub2d8\ubc29\uae0b",
+      category: 4,
       id: "/users/N4tgGw",
     },
     {
@@ -5207,7 +5203,7 @@ const data: GraphData & any = {
       like_mean: 3.433333333333333,
       like_sum: 206,
       id_name: "\uc1a1\ub450\ubd80",
-      category: "\uc1a1\ub450\ubd80",
+      category: 4,
       id: "/users/OgtwpP",
     },
     {
@@ -5220,7 +5216,7 @@ const data: GraphData & any = {
       like_mean: 1.868421052631579,
       like_sum: 426,
       id_name: "\uc218\ud0a4",
-      category: "\uc218\ud0a4",
+      category: 3,
       id: "/users/EztkaJ",
     },
     {
@@ -5233,7 +5229,7 @@ const data: GraphData & any = {
       like_mean: 10.426229508196721,
       like_sum: 636,
       id_name: "\ubc15\ud55c\ubcc4",
-      category: "\ubc15\ud55c\ubcc4",
+      category: 4,
       id: "/users/Kkt23g",
     },
     {
@@ -5246,7 +5242,7 @@ const data: GraphData & any = {
       like_mean: 5.5,
       like_sum: 121,
       id_name: "\uc211\ube44\uc211",
-      category: "\uc211\ube44\uc211",
+      category: 4,
       id: "/users/eNtnMN",
     },
     {
@@ -5259,7 +5255,7 @@ const data: GraphData & any = {
       like_mean: 7.776119402985074,
       like_sum: 521,
       id_name: "\uc9c0\uce58\uc9c0\uc54a\ub294 \uac70\ubd81\uc774",
-      category: "\uc9c0\uce58\uc9c0\uc54a\ub294 \uac70\ubd81\uc774",
+      category: 3,
       id: "/users/oztQgL",
     },
     {
@@ -5272,7 +5268,7 @@ const data: GraphData & any = {
       like_mean: 6.038461538461538,
       like_sum: 157,
       id_name: "\ub098\ub29430\ub300",
-      category: "\ub098\ub29430\ub300",
+      category: 2,
       id: "/users/ozt9Wa",
     },
     {
@@ -5285,7 +5281,7 @@ const data: GraphData & any = {
       like_mean: 15.210526315789474,
       like_sum: 289,
       id_name: "\ub9c9\ub300\uc0ac\ud0d5",
-      category: "\ub9c9\ub300\uc0ac\ud0d5",
+      category: 2,
       id: "/users/VAtJY2",
     },
     {
@@ -5298,7 +5294,7 @@ const data: GraphData & any = {
       like_mean: 3.33,
       like_sum: 333,
       id_name: "\uc870\ud604\uc6b0",
-      category: "\uc870\ud604\uc6b0",
+      category: 2,
       id: "/users/vZt22d",
     },
     {
@@ -5311,7 +5307,7 @@ const data: GraphData & any = {
       like_mean: 1.3838383838383839,
       like_sum: 137,
       id_name: "\uc2b9",
-      category: "\uc2b9",
+      category: 1,
       id: "/users/a3tazw",
     },
     {
@@ -5324,7 +5320,7 @@ const data: GraphData & any = {
       like_mean: 1.4180327868852458,
       like_sum: 173,
       id_name: "\uc778\uc0dd \uc5f0\uc2b5",
-      category: "\uc778\uc0dd \uc5f0\uc2b5",
+      category: 5,
       id: "/users/N4tZOJ",
     },
     {
@@ -5337,7 +5333,7 @@ const data: GraphData & any = {
       like_mean: 1.1666666666666667,
       like_sum: 21,
       id_name: "bluemint",
-      category: "bluemint",
+      category: 2,
       id: "/users/PntejL",
     },
     {
@@ -5350,7 +5346,7 @@ const data: GraphData & any = {
       like_mean: 1.8461538461538463,
       like_sum: 24,
       id_name: "\uc608\uc05c\ucf69\uc544",
-      category: "\uc608\uc05c\ucf69\uc544",
+      category: 2,
       id: "/users/letYaV",
     },
     {
@@ -5363,7 +5359,7 @@ const data: GraphData & any = {
       like_mean: 1.7241379310344827,
       like_sum: 50,
       id_name: "\ubc15\uc131\uc6a9",
-      category: "\ubc15\uc131\uc6a9",
+      category: 1,
       id: "/users/51taQV",
     },
     {
@@ -5376,7 +5372,7 @@ const data: GraphData & any = {
       like_mean: 1.0,
       like_sum: 35,
       id_name: "7 trillion",
-      category: "7 trillion",
+      category: 1,
       id: "/users/51tkYv",
     },
     {
@@ -5389,7 +5385,7 @@ const data: GraphData & any = {
       like_mean: 2.6451612903225805,
       like_sum: 82,
       id_name: "\uc774\ub2c8\uc544\ud0a4",
-      category: "\uc774\ub2c8\uc544\ud0a4",
+      category: 1,
       id: "/users/1Rt5lw",
     },
     {
@@ -5402,7 +5398,7 @@ const data: GraphData & any = {
       like_mean: 4.471698113207547,
       like_sum: 237,
       id_name: "\uc5ec\uc0c1\uc6d0",
-      category: "\uc5ec\uc0c1\uc6d0",
+      category: 1,
       id: "/users/dQtYBQ",
     },
     {
@@ -5415,7 +5411,7 @@ const data: GraphData & any = {
       like_mean: 2.731707317073171,
       like_sum: 224,
       id_name: "\uc580\uc580",
-      category: "\uc580\uc580",
+      category: 2,
       id: "/users/OgtX4P",
     },
     {
@@ -5428,7 +5424,7 @@ const data: GraphData & any = {
       like_mean: 4.554545454545455,
       like_sum: 501,
       id_name: "\uae40\uc740\ud638",
-      category: "\uae40\uc740\ud638",
+      category: 2,
       id: "/users/eNtvWd",
     },
     {
@@ -5441,7 +5437,7 @@ const data: GraphData & any = {
       like_mean: 2.903225806451613,
       like_sum: 90,
       id_name: "Tulip fever",
-      category: "Tulip fever",
+      category: 5,
       id: "/users/Wat2dL",
     },
     {
@@ -5454,7 +5450,7 @@ const data: GraphData & any = {
       like_mean: 3.2439024390243905,
       like_sum: 133,
       id_name: "\ucc2c\ubc14\ub2c8",
-      category: "\ucc2c\ubc14\ub2c8",
+      category: 4,
       id: "/users/Ogtwj7",
     },
     {
@@ -5467,7 +5463,7 @@ const data: GraphData & any = {
       like_mean: 1.7843137254901962,
       like_sum: 273,
       id_name: "\uafb8\uc900\ud568\uc73c\ub85c~",
-      category: "\uafb8\uc900\ud568\uc73c\ub85c~",
+      category: 3,
       id: "/users/Jpt3w5",
     },
     {
@@ -5480,7 +5476,7 @@ const data: GraphData & any = {
       like_mean: 1.3404255319148937,
       like_sum: 63,
       id_name: "\uc720\uc120\ud76c",
-      category: "\uc720\uc120\ud76c",
+      category: 1,
       id: "/users/ZBt270",
     },
     {
@@ -5493,7 +5489,7 @@ const data: GraphData & any = {
       like_mean: 1.1333333333333333,
       like_sum: 34,
       id_name: "\ubb3c\uac1c\ubbf8",
-      category: "\ubb3c\uac1c\ubbf8",
+      category: 2,
       id: "/users/gvtde5",
     },
     {
@@ -5506,7 +5502,7 @@ const data: GraphData & any = {
       like_mean: 1.625,
       like_sum: 39,
       id_name: "\uc190\uc5f0\uc8fc",
-      category: "\uc190\uc5f0\uc8fc",
+      category: 3,
       id: "/users/LZtKBy",
     },
     {
@@ -5519,7 +5515,7 @@ const data: GraphData & any = {
       like_mean: 4.9655172413793105,
       like_sum: 144,
       id_name: "\uc870\uc724\uc815",
-      category: "\uc870\uc724\uc815",
+      category: 3,
       id: "/users/ZBt3ak",
     },
     {
@@ -5532,7 +5528,7 @@ const data: GraphData & any = {
       like_mean: 1.9174311926605505,
       like_sum: 209,
       id_name: "\uac15\ud638\ub0a8",
-      category: "\uac15\ud638\ub0a8",
+      category: 1,
       id: "/users/r9tN2o",
     },
     {
@@ -5545,7 +5541,7 @@ const data: GraphData & any = {
       like_mean: 3.0949367088607596,
       like_sum: 489,
       id_name: "\ub9cc\ub4dc\ub294\ub0a8\uc790",
-      category: "\ub9cc\ub4dc\ub294\ub0a8\uc790",
+      category: 3,
       id: "/users/73twZd",
     },
     {
@@ -5558,7 +5554,7 @@ const data: GraphData & any = {
       like_mean: 3.0794701986754967,
       like_sum: 465,
       id_name: "\ud558\ube44\uc758\uc138\uc0c1",
-      category: "\ud558\ube44\uc758\uc138\uc0c1",
+      category: 0,
       id: "/users/k6tZBl",
     },
     {
@@ -5571,7 +5567,7 @@ const data: GraphData & any = {
       like_mean: 1.3818181818181818,
       like_sum: 76,
       id_name: "\ud6a1\uc124 \uc218\uc124",
-      category: "\ud6a1\uc124 \uc218\uc124",
+      category: 2,
       id: "/users/WatnW6",
     },
     {
@@ -5584,7 +5580,7 @@ const data: GraphData & any = {
       like_mean: 1.263157894736842,
       like_sum: 48,
       id_name: "\uc7a5\ud76c\uc2b9",
-      category: "\uc7a5\ud76c\uc2b9",
+      category: 4,
       id: "/users/letamZ",
     },
     {
@@ -5597,7 +5593,7 @@ const data: GraphData & any = {
       like_mean: 2.775,
       like_sum: 111,
       id_name: "\ub940\ub9d8\ud83d\udc95",
-      category: "\ub940\ub9d8\ud83d\udc95",
+      category: 4,
       id: "/users/vZty27",
     },
     {
@@ -5610,7 +5606,7 @@ const data: GraphData & any = {
       like_mean: 2.19815668202765,
       like_sum: 477,
       id_name: "\ud638\ub7ad\uc774\uc785\ub2c8\ub2e4",
-      category: "\ud638\ub7ad\uc774\uc785\ub2c8\ub2e4",
+      category: 2,
       id: "/users/1Rt0LL",
     },
     {
@@ -5623,7 +5619,7 @@ const data: GraphData & any = {
       like_mean: 2.582089552238806,
       like_sum: 173,
       id_name: "\ud61c\ud61c\ud61c\ub098",
-      category: "\ud61c\ud61c\ud61c\ub098",
+      category: 2,
       id: "/users/9YtzY5",
     },
     {
@@ -5636,7 +5632,7 @@ const data: GraphData & any = {
       like_mean: 6.112244897959184,
       like_sum: 599,
       id_name: "\uc870\uac01\uc9d1",
-      category: "\uc870\uac01\uc9d1",
+      category: 3,
       id: "/users/WatK5l",
     },
     {
@@ -5649,7 +5645,7 @@ const data: GraphData & any = {
       like_mean: 1.3176470588235294,
       like_sum: 112,
       id_name: "\uc804\uc124",
-      category: "\uc804\uc124",
+      category: 2,
       id: "/users/Jpt57Z",
     },
     {
@@ -5662,7 +5658,7 @@ const data: GraphData & any = {
       like_mean: 1.3903743315508021,
       like_sum: 260,
       id_name: "\uace0\ud508\uc544\ucc0c",
-      category: "\uace0\ud508\uc544\ucc0c",
+      category: 2,
       id: "/users/wVtM10",
     },
     {
@@ -5675,7 +5671,7 @@ const data: GraphData & any = {
       like_mean: 1.8541666666666667,
       like_sum: 534,
       id_name: "\ud478\ub8e8\ub8fd",
-      category: "\ud478\ub8e8\ub8fd",
+      category: 3,
       id: "/users/0BtYAg",
     },
     {
@@ -5688,7 +5684,7 @@ const data: GraphData & any = {
       like_mean: 3.6447368421052633,
       like_sum: 277,
       id_name: "\ud558\uc628",
-      category: "\ud558\uc628",
+      category: 3,
       id: "/users/Bet4vL",
     },
     {
@@ -5701,7 +5697,7 @@ const data: GraphData & any = {
       like_mean: 2.0576923076923075,
       like_sum: 107,
       id_name: "\uc815\uc9c4\uc219",
-      category: "\uc815\uc9c4\uc219",
+      category: 3,
       id: "/users/ozt6Vz",
     },
     {
@@ -5714,7 +5710,7 @@ const data: GraphData & any = {
       like_mean: 2.9782608695652173,
       like_sum: 274,
       id_name: "\ub098\ub780\ub140\uc11d",
-      category: "\ub098\ub780\ub140\uc11d",
+      category: 3,
       id: "/users/mJtjB5",
     },
     {
@@ -5727,7 +5723,7 @@ const data: GraphData & any = {
       like_mean: 4.513513513513513,
       like_sum: 167,
       id_name: "\uc5d0\uc2a4\ub354",
-      category: "\uc5d0\uc2a4\ub354",
+      category: 3,
       id: "/users/wVtzly",
     },
     {
@@ -5740,7 +5736,7 @@ const data: GraphData & any = {
       like_mean: 14.292682926829269,
       like_sum: 586,
       id_name: "\uae40\uc120\uc560",
-      category: "\uae40\uc120\uc560",
+      category: 1,
       id: "/users/eNtZ9e",
     },
     {
@@ -5753,7 +5749,7 @@ const data: GraphData & any = {
       like_mean: 6.100840336134453,
       like_sum: 726,
       id_name: "\uc5b4\uca54\uc2a4",
-      category: "\uc5b4\uca54\uc2a4",
+      category: 1,
       id: "/users/ZBtK2R",
     },
     {
@@ -5766,7 +5762,7 @@ const data: GraphData & any = {
       like_mean: 1.6216216216216217,
       like_sum: 120,
       id_name: "\ubc30\ud64d\uc775",
-      category: "\ubc30\ud64d\uc775",
+      category: 4,
       id: "/users/PntvED",
     },
     {
@@ -5779,7 +5775,7 @@ const data: GraphData & any = {
       like_mean: 2.331983805668016,
       like_sum: 576,
       id_name: "\ud600\ub2c8\ud600\ub2c8",
-      category: "\ud600\ub2c8\ud600\ub2c8",
+      category: 1,
       id: "/users/jltl9w",
     },
     {
@@ -5792,7 +5788,7 @@ const data: GraphData & any = {
       like_mean: 2.261904761904762,
       like_sum: 380,
       id_name: "\ub2e4\ub978\uc774\ub984",
-      category: "\ub2e4\ub978\uc774\ub984",
+      category: 1,
       id: "/users/prty9K",
     },
     {
@@ -5805,7 +5801,7 @@ const data: GraphData & any = {
       like_mean: 2.1049723756906076,
       like_sum: 381,
       id_name: "MR \uc1a1",
-      category: "MR \uc1a1",
+      category: 1,
       id: "/users/not4zm",
     },
     {
@@ -5818,7 +5814,7 @@ const data: GraphData & any = {
       like_mean: 3.638888888888889,
       like_sum: 131,
       id_name: "\uc7a5\ud638\uc815",
-      category: "\uc7a5\ud638\uc815",
+      category: 5,
       id: "/users/EztXZw",
     },
     {
@@ -5831,7 +5827,7 @@ const data: GraphData & any = {
       like_mean: 2.268292682926829,
       like_sum: 93,
       id_name: "\ub098\uc2a4\ub2e5\ucd94\uc885\uc790",
-      category: "\ub098\uc2a4\ub2e5\ucd94\uc885\uc790",
+      category: 4,
       id: "/users/wVt7A7",
     },
     {
@@ -5844,7 +5840,7 @@ const data: GraphData & any = {
       like_mean: 4.255102040816326,
       like_sum: 417,
       id_name: "\ucd5c\uc81c\uc5b8",
-      category: "\ucd5c\uc81c\uc5b8",
+      category: 0,
       id: "/users/x4Wt74",
     },
     {
@@ -5857,7 +5853,7 @@ const data: GraphData & any = {
       like_mean: 2.325,
       like_sum: 93,
       id_name: "\uae08\ub3d9\uc774",
-      category: "\uae08\ub3d9\uc774",
+      category: 3,
       id: "/users/dQtd0m",
     },
     {
@@ -5870,7 +5866,7 @@ const data: GraphData & any = {
       like_mean: 1.2,
       like_sum: 18,
       id_name: "\ubc15\uc0c1\uc5b8",
-      category: "\ubc15\uc0c1\uc5b8",
+      category: 4,
       id: "/users/zntYvl",
     },
     {
@@ -5883,7 +5879,7 @@ const data: GraphData & any = {
       like_mean: 2.1184210526315788,
       like_sum: 161,
       id_name: "\uce58\ud1a0\uc2a4\uc655",
-      category: "\uce58\ud1a0\uc2a4\uc655",
+      category: 3,
       id: "/users/N4tYv1",
     },
     {
@@ -5896,7 +5892,7 @@ const data: GraphData & any = {
       like_mean: 2.7951807228915664,
       like_sum: 232,
       id_name: "\uc774\uc131\ubb38",
-      category: "\uc774\uc131\ubb38",
+      category: 3,
       id: "/users/GDtePm",
     },
     {
@@ -5909,7 +5905,7 @@ const data: GraphData & any = {
       like_mean: 1.9428571428571428,
       like_sum: 68,
       id_name: "\ud76c\ub9dd",
-      category: "\ud76c\ub9dd",
+      category: 5,
       id: "/users/vZtzj4",
     },
     {
@@ -5922,7 +5918,7 @@ const data: GraphData & any = {
       like_mean: 1.7058823529411764,
       like_sum: 58,
       id_name: "\uae40\uc601\ud76c",
-      category: "\uae40\uc601\ud76c",
+      category: 1,
       id: "/users/oztaow",
     },
     {
@@ -5935,7 +5931,7 @@ const data: GraphData & any = {
       like_mean: 1.9464285714285714,
       like_sum: 218,
       id_name: "\ud55c\uc720",
-      category: "\ud55c\uc720",
+      category: 1,
       id: "/users/N4tAPz",
     },
     {
@@ -5948,7 +5944,7 @@ const data: GraphData & any = {
       like_mean: 2.367816091954023,
       like_sum: 206,
       id_name: "\ub9c8\uc55471",
-      category: "\ub9c8\uc55471",
+      category: 2,
       id: "/users/YEt9Og",
     },
     {
@@ -5961,7 +5957,7 @@ const data: GraphData & any = {
       like_mean: 1.6808510638297873,
       like_sum: 79,
       id_name: "\ubbfc\uc218\ubbf8",
-      category: "\ubbfc\uc218\ubbf8",
+      category: 1,
       id: "/users/vZtBdj",
     },
     {
@@ -5974,7 +5970,7 @@ const data: GraphData & any = {
       like_mean: 2.1025641025641026,
       like_sum: 82,
       id_name: "\uc2dc\ud638",
-      category: "\uc2dc\ud638",
+      category: 4,
       id: "/users/r9t659",
     },
     {
@@ -5987,7 +5983,7 @@ const data: GraphData & any = {
       like_mean: 5.587301587301587,
       like_sum: 352,
       id_name: "\uc624\uc218\ub0a8",
-      category: "\uc624\uc218\ub0a8",
+      category: 1,
       id: "/users/9YtK4W",
     },
     {
@@ -6000,7 +5996,7 @@ const data: GraphData & any = {
       like_mean: 11.727272727272727,
       like_sum: 129,
       id_name: "\uae40\uc218\ubbfc",
-      category: "\uae40\uc218\ubbfc",
+      category: 3,
       id: "/users/Wat7Zy",
     },
     {
@@ -6013,7 +6009,7 @@ const data: GraphData & any = {
       like_mean: 2.124463519313305,
       like_sum: 495,
       id_name: "\ub178\uc324",
-      category: "\ub178\uc324",
+      category: 2,
       id: "/users/XGtaBp",
     },
     {
@@ -6026,7 +6022,7 @@ const data: GraphData & any = {
       like_mean: 2.0483870967741935,
       like_sum: 127,
       id_name: "\uae4c\uc0ac\uae4c\uc0ac",
-      category: "\uae4c\uc0ac\uae4c\uc0ac",
+      category: 1,
       id: "/users/zntz1P",
     },
     {
@@ -6039,7 +6035,7 @@ const data: GraphData & any = {
       like_mean: 2.4444444444444446,
       like_sum: 110,
       id_name: "\uc548\uc131\ud76c",
-      category: "\uc548\uc131\ud76c",
+      category: 1,
       id: "/users/k6tzJv",
     },
     {
@@ -6052,7 +6048,7 @@ const data: GraphData & any = {
       like_mean: 2.3676470588235294,
       like_sum: 161,
       id_name: "Anna Kim",
-      category: "Anna Kim",
+      category: 2,
       id: "/users/LZtrOD",
     },
     {
@@ -6065,7 +6061,7 @@ const data: GraphData & any = {
       like_mean: 15.114285714285714,
       like_sum: 529,
       id_name: "\uc608\uc6d0",
-      category: "\uc608\uc6d0",
+      category: 1,
       id: "/users/0Bt3VG",
     },
     {
@@ -6078,7 +6074,7 @@ const data: GraphData & any = {
       like_mean: 0.6923076923076923,
       like_sum: 27,
       id_name: "\ud574\ubd04",
-      category: "\ud574\ubd04",
+      category: 2,
       id: "/users/a3tZOM",
     },
     {
@@ -6091,7 +6087,7 @@ const data: GraphData & any = {
       like_mean: 5.785714285714286,
       like_sum: 162,
       id_name: "\uc900\ud0dd",
-      category: "\uc900\ud0dd",
+      category: 0,
       id: "/users/N4tGpp",
     },
     {
@@ -6104,7 +6100,7 @@ const data: GraphData & any = {
       like_mean: 1.0454545454545454,
       like_sum: 23,
       id_name: "\ubbf8\uc2a4\ud0c0 \ucd08\uc774",
-      category: "\ubbf8\uc2a4\ud0c0 \ucd08\uc774",
+      category: 5,
       id: "/users/ZBtl62",
     },
     {
@@ -6117,7 +6113,7 @@ const data: GraphData & any = {
       like_mean: 3.020408163265306,
       like_sum: 148,
       id_name: "\ucd5c\uc11c\uc6b0",
-      category: "\ucd5c\uc11c\uc6b0",
+      category: 5,
       id: "/users/zntjeN",
     },
     {
@@ -6130,7 +6126,7 @@ const data: GraphData & any = {
       like_mean: 1.752808988764045,
       like_sum: 156,
       id_name: "\uc774\uc120\uc6b0",
-      category: "\uc774\uc120\uc6b0",
+      category: 5,
       id: "/users/6mtLay",
     },
     {
@@ -6143,7 +6139,7 @@ const data: GraphData & any = {
       like_mean: 10.902439024390244,
       like_sum: 447,
       id_name: "\ud45c\ub958\uae30",
-      category: "\ud45c\ub958\uae30",
+      category: 5,
       id: "/users/k6tzNP",
     },
     {
@@ -6156,7 +6152,7 @@ const data: GraphData & any = {
       like_mean: 2.3424657534246576,
       like_sum: 171,
       id_name: "\ud1b0\ub9ac",
-      category: "\ud1b0\ub9ac",
+      category: 4,
       id: "/users/ygt3Xo",
     },
     {
@@ -6169,7 +6165,7 @@ const data: GraphData & any = {
       like_mean: 1.3461538461538463,
       like_sum: 35,
       id_name: "Dhlee",
-      category: "Dhlee",
+      category: 5,
       id: "/users/Eztkr4",
     },
     {
@@ -6182,7 +6178,7 @@ const data: GraphData & any = {
       like_mean: 2.8947368421052633,
       like_sum: 165,
       id_name: "\ud754\ud55c\ub3d9\ub124\uc544\uc800\uc528",
-      category: "\ud754\ud55c\ub3d9\ub124\uc544\uc800\uc528",
+      category: 5,
       id: "/users/RKt5A2",
     },
     {
@@ -6195,7 +6191,7 @@ const data: GraphData & any = {
       like_mean: 2.0555555555555554,
       like_sum: 37,
       id_name: "\ud558\uc774\ud558\uc774",
-      category: "\ud558\uc774\ud558\uc774",
+      category: 5,
       id: "/users/51tlBy",
     },
     {
@@ -6208,7 +6204,7 @@ const data: GraphData & any = {
       like_mean: 2.5211267605633805,
       like_sum: 179,
       id_name: "\ucd08\ucf54\uc6b0\uc720",
-      category: "\ucd08\ucf54\uc6b0\uc720",
+      category: 4,
       id: "/users/mJtGO9",
     },
     {
@@ -6221,7 +6217,7 @@ const data: GraphData & any = {
       like_mean: 1.2,
       like_sum: 6,
       id_name: "\uc5d0\uafb8\ubbf8",
-      category: "\uc5d0\uafb8\ubbf8",
+      category: 5,
       id: "/users/MVtOGO",
     },
     {
@@ -6234,7 +6230,7 @@ const data: GraphData & any = {
       like_mean: 1.2857142857142858,
       like_sum: 9,
       id_name: "\ub2e4\uc12f\uc190\uac00\ub77d",
-      category: "\ub2e4\uc12f\uc190\uac00\ub77d",
+      category: 5,
       id: "/users/Pnt71r",
     },
     {
@@ -6247,7 +6243,7 @@ const data: GraphData & any = {
       like_mean: 2.0759493670886076,
       like_sum: 164,
       id_name: "adora",
-      category: "adora",
+      category: 5,
       id: "/users/LZtV0Z",
     },
     {
@@ -6260,7 +6256,7 @@ const data: GraphData & any = {
       like_mean: 3.576923076923077,
       like_sum: 93,
       id_name: "\uc815\uc608\uc740",
-      category: "\uc815\uc608\uc740",
+      category: 3,
       id: "/users/9YteoX",
     },
     {
@@ -6273,7 +6269,7 @@ const data: GraphData & any = {
       like_mean: 1.5,
       like_sum: 36,
       id_name: "Addictionsoo",
-      category: "Addictionsoo",
+      category: 5,
       id: "/users/N4tprn",
     },
   ],
