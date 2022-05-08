@@ -8,30 +8,20 @@ import ForceGraph3D, {
 import { useWindowSize } from "@react-hook/window-size";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import raw_data_2 from "../../data/alookso_u/G_user_first_post_from_2";
-import raw_data_3 from "../../data/alookso_u/G_user_first_post_from_3";
-import raw_data_4 from "../../data/alookso_u/G_user_first_post_from_4";
-import raw_data_5 from "../../data/alookso_u/G_user_first_post_from_5";
+import raw_data from "../../data/law_21st/G_law_21st_rejct";
 
 const ForceGraph = dynamic(() => import("../../components/ForceGraph"), {
   ssr: false,
 });
 
-const raw_data_array = [raw_data_2, raw_data_3, raw_data_4, raw_data_5];
-
 const App = () => {
   const [width, height] = useWindowSize();
   const [GD, setGD] = useState<GraphData & any>();
   const initialdensity = "2";
-  const [density, setDensity] = useState<string>(initialdensity);
 
   const router = useRouter();
   const onClick = () => {
     router.back();
-  };
-
-  const densityHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setDensity(e.target.value);
   };
 
   return (
@@ -42,41 +32,60 @@ const App = () => {
             graphData={GD}
             width={width * 1}
             height={height * 1}
-            // nodeAutoColorBy="category"
-            nodeColor={(node: any) => (node.category === 0 ? "red" : "blue")}
+            // nodeAutoColorBy="소속"
+            nodeRelSize={3}
+            nodeColor={(node: any) => {
+              node.소속 == "국민의힘"
+                ? "red"
+                : node.소속 === "더불어민주당"
+                ? "Aqua"
+                : node.소속 === "국민의당"
+                ? "Orange"
+                : node.소속 === "열린민주당"
+                ? "blue"
+                : node.소속 === "정의당"
+                ? "yellow"
+                : node.소속 === "기본소득당"
+                ? "Lime"
+                : node.소속 === "무소속"
+                ? "Silver"
+                : node.소속 === "의안"
+                ? "white"
+                : "Navy";
+            }}
             nodeThreeObject={(node: any) => {
-              const sprite = new SpriteText(node.id_name);
-              sprite.color =
-                node.category <= 3
-                  ? node.category <= 1
+              if (node.소속 != "의안") {
+                const sprite = new SpriteText(node.view);
+                sprite.color =
+                  node.소속 == "국민의힘"
                     ? "red"
-                    : "pink"
-                  : "blue";
-              sprite.textHeight = 9;
-              return sprite;
+                    : node.소속 === "더불어민주당"
+                    ? "Aqua"
+                    : node.소속 === "국민의당"
+                    ? "Orange"
+                    : node.소속 === "열린민주당"
+                    ? "blue"
+                    : node.소속 === "정의당"
+                    ? "yellow"
+                    : node.소속 === "기본소득당"
+                    ? "Lime"
+                    : node.소속 === "무소속"
+                    ? "Silver"
+                    : node.소속 === "의안"
+                    ? "white"
+                    : "Navy";
+                sprite.textHeight = 10;
+                return sprite;
+              }
             }}
             linkDirectionalParticles={1}
             linkDirectionalParticleWidth={1}
             linkDirectionalParticleColor={() => "pink"}
             enableNodeDrag={false}
-            linkWidth={0.3}
+            nodeLabel="id"
+            linkWidth={0.2}
           />
         </div>
-      </div>
-      <div
-        className="flex flex-col items-center justify-start 
-      fixed right-0 top-[10%]"
-      >
-        <input
-          className="w-1/2 border-0 cursor-pointer -rotate-90"
-          type="range"
-          min="0"
-          max="3"
-          step="1"
-          defaultValue={initialdensity}
-          onChange={densityHandler}
-        ></input>
-        <p className="mt-6 text-white">Weight: {parseInt(density) + 2}</p>
       </div>
 
       <button
@@ -86,8 +95,8 @@ const App = () => {
         w-20 flex items-center justify-center text-white"
         onClick={() => {
           const data_load: GraphData & any = {
-            nodes: raw_data_array[parseInt(density)].nodes,
-            links: raw_data_array[parseInt(density)].links,
+            nodes: raw_data.nodes,
+            links: raw_data.links,
           };
           setGD(data_load);
         }}
