@@ -37,7 +37,7 @@ const Home: NextPage = () => {
               />
             </div>
             <span className="flex items-center justify-center text-lg font-medium -mt-1">
-              21st National Assembly Voting: Disapproval
+              21st National Assembly Voting
             </span>
           </div>
         </Link>
