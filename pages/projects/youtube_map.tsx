@@ -91,12 +91,11 @@ const YoutubeMap: NextPage = () => {
       `/api/json_loader?id=${validForm.videoID}&maxResults=${maxResults}`
     ).then((res) => res.json());
 
-    if (json.error.code == 403) {
+    if (json.error !== undefined) {
       console.log(json);
-      if (json.error.code === 403) {
-        setApiState(false);
-      }
+      setApiState(false);
     } else {
+      setApiState(true);
       try {
         if (endTarget.includes(validForm.videoID) == false) {
           setGD((prev) => ({
@@ -194,10 +193,10 @@ const YoutubeMap: NextPage = () => {
     setNewTmpTarget([]);
   };
 
-  // useEffect(() => {
-  //   // console.log(GD);
-  //   console.log(endTarget, newTarget, newTmpTarget);
-  // }, [GD]);
+  useEffect(() => {
+    console.log(GD);
+    // console.log(endTarget, newTarget, newTmpTarget);
+  }, [GD]);
 
   useEffect(() => {
     console.log(errors);
