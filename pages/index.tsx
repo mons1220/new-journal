@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                 alt=""
               />
             </div>
-            <span className="flex items-center justify-center text-lg font-bold -mt-1">
+            <span className="flex items-center justify-center text-lg font-medium -mt-1">
               Alookso user network
             </span>
           </div>
@@ -36,8 +36,23 @@ const Home: NextPage = () => {
                 alt=""
               />
             </div>
-            <span className="flex items-center justify-center text-lg font-bold -mt-1">
+            <span className="flex items-center justify-center text-lg font-medium -mt-1">
               21st National Assembly Voting: Disapproval
+            </span>
+          </div>
+        </Link>
+        <Link href="/projects/youtube_map">
+          <div className="h-96 shadow-lg rounded-xl border-2 hover:ring-2 hover:ring-purple-700 cursor-pointer">
+            <div className="relative h-4/5 m-5">
+              <Image
+                className="rounded-xl"
+                layout="fill"
+                src="/static/images/project3_youtube_map.PNG"
+                alt=""
+              />
+            </div>
+            <span className="flex items-center justify-center text-lg font-medium -mt-1">
+              Youtube map
             </span>
           </div>
         </Link>
