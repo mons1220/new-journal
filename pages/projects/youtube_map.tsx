@@ -273,7 +273,8 @@ const YoutubeMap: NextPage = () => {
 
   return (
     <div>
-      <div className="flex justify-center items-center bg-purple-200">
+      {/* make DB */}
+      {/* <div className="flex justify-center items-center bg-purple-200">
         <form onSubmit={handleSubmit(onValid, onInvalid)}>
           <div className="space-y-2 my-2">
             <div className="flex flex-col">
@@ -328,14 +329,15 @@ const YoutubeMap: NextPage = () => {
             </div>
           </div>
         </form>
-      </div>
+      </div> */}
 
       <div className="flex items-center justify-center bg-purple-200">
         <div>
           <ForceGraph
             graphData={GD}
             width={width * 1}
-            height={height - 175}
+            height={height}
+            // height={height - 175} when making DB add -175
             // nodeAutoColorBy="id"
             nodeRelSize={3}
             nodeThreeObject={(node: any) => {
@@ -384,7 +386,8 @@ const YoutubeMap: NextPage = () => {
         Load Sample
       </button>
 
-      <button
+      {/* make DB */}
+      {/* <button
         className={`${
           apiState
             ? "fixed hover:bg-purple-500 border-0 aspect-square border-transparent transition-colors cursor-pointer top-[190px] right-[15px] shadow-xl bg-purple-700 rounded-full w-20 flex items-center justify-center text-white"
@@ -393,7 +396,7 @@ const YoutubeMap: NextPage = () => {
         onClick={expandHandler}
       >
         Expand
-      </button>
+      </button> */}
 
       <Link href="/">
         <a
