@@ -99,7 +99,14 @@ const YoutubeMap: NextPage = () => {
       try {
         if (endTarget.includes(validForm.videoID) == false) {
           setGD((prev) => ({
-            nodes: [...prev.nodes, { id: validForm.videoID }],
+            nodes: [
+              ...prev.nodes,
+              {
+                id: validForm.videoID,
+                view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
+                title: "START FROM HERE!",
+              },
+            ],
             links: prev.links,
           }));
           setAllNodes((prev) => [...prev, validForm.videoID]);
@@ -271,7 +278,7 @@ const YoutubeMap: NextPage = () => {
             graphData={GD}
             width={width * 1}
             height={height - 175}
-            nodeAutoColorBy="id"
+            // nodeAutoColorBy="id"
             nodeRelSize={3}
             nodeThreeObject={(node: any) => {
               if (node.view != undefined) {

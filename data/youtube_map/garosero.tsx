@@ -6,6 +6,8 @@ const data: GraphData & any = {
   nodes: [
     {
       id: "SwaJcuQ5e0I",
+      view: `https://i.ytimg.com/vi/SwaJcuQ5e0I/mqdefault.jpg`,
+      title: "START FROM HERE!",
     },
     {
       id: "Rob0mjzqxn8",
