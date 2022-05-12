@@ -350,7 +350,11 @@ const YoutubeMap: NextPage = () => {
                   map: texture,
                 });
                 const sprite = new THREE.Sprite(material);
-                sprite.scale.set(34, 20, 4);
+                if (node.title == "START FROM HERE!") {
+                  sprite.scale.set(68, 40, 4);
+                } else {
+                  sprite.scale.set(34, 20, 4);
+                }
                 return sprite;
               } else {
                 return false;
@@ -375,6 +379,7 @@ const YoutubeMap: NextPage = () => {
           raw_data;
           var data_load: GraphData & any = raw_data;
 
+          // 중복 naming 삭제
           data_load.nodes = raw_data.nodes.reduce((prev: any, now: any) => {
             if (!prev.some((obj: any) => obj.id === now.id)) prev.push(now);
             return prev;
