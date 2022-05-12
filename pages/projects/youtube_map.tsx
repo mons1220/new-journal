@@ -90,41 +90,50 @@ const YoutubeMap: NextPage = () => {
     const json: SearchForm = await fetch(
       `/api/json_loader?id=${validForm.videoID}&maxResults=${maxResults}`
     ).then((res) => res.json());
-    try {
-      if (endTarget.includes(validForm.videoID) == false) {
-        setGD((prev) => ({
-          nodes: [...prev.nodes, { id: validForm.videoID }],
-          links: prev.links,
-        }));
-        setAllNodes((prev) => [...prev, validForm.videoID]);
 
-        json.items.map((content, i) => {
-          setGD((prev) => ({
-            nodes: [
-              ...prev.nodes,
-              {
-                id: content.id.videoId,
-                view: content.snippet?.thumbnails.medium.url,
-                title: content.snippet?.title,
-              },
-            ],
-            links: [
-              ...prev.links,
-              {
-                source: validForm.videoID,
-                target: content.id.videoId,
-              },
-            ],
-          }));
-          setAllNodes((prev) => [...prev, content.id.videoId]);
-          setNewTarget((prev) => [...prev, content.id.videoId]);
-        });
-        setEndTarget((prev) => [...prev, validForm.videoID]);
-      }
-    } catch (error) {
+    if (json.error.code == 403) {
       console.log(json);
       if (json.error.code === 403) {
         setApiState(false);
+      }
+    } else {
+      try {
+        if (endTarget.includes(validForm.videoID) == false) {
+          setGD((prev) => ({
+            nodes: [...prev.nodes, { id: validForm.videoID }],
+            links: prev.links,
+          }));
+          setAllNodes((prev) => [...prev, validForm.videoID]);
+
+          json.items.map((content, i) => {
+            setGD((prev) => ({
+              nodes: [
+                ...prev.nodes,
+                {
+                  id: content.id.videoId,
+                  view: content.snippet?.thumbnails.medium.url,
+                  title: content.snippet?.title,
+                },
+              ],
+              links: [
+                ...prev.links,
+                {
+                  source: validForm.videoID,
+                  target: content.id.videoId,
+                },
+              ],
+            }));
+            setAllNodes((prev) => [...prev, content.id.videoId]);
+            setNewTarget((prev) => [...prev, content.id.videoId]);
+          });
+          setEndTarget((prev) => [...prev, validForm.videoID]);
+        }
+      } catch (error) {
+        console.log(json);
+        console.log(error);
+        // if (json.error.code === 403) {
+        //   setApiState(false);
+        // }
       }
     }
   };
