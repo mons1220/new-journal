@@ -72,10 +72,10 @@ const YoutubeMap: NextPage = () => {
     nodes: [],
     links: [],
   });
-  const [GDlog, setGDlog] = useState<GraphData>({
-    nodes: [],
-    links: [],
-  });
+  // const [GDlog, setGDlog] = useState<GraphData>({
+  //   nodes: [],
+  //   links: [],
+  // });
 
   const {
     register,
@@ -113,17 +113,17 @@ const YoutubeMap: NextPage = () => {
             ],
             links: prev.links,
           }));
-          setGDlog((prev) => ({
-            nodes: [
-              ...prev.nodes,
-              {
-                id: validForm.videoID,
-                view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
-                title: "START FROM HERE!",
-              },
-            ],
-            links: prev.links,
-          }));
+          // setGDlog((prev) => ({
+          //   nodes: [
+          //     ...prev.nodes,
+          //     {
+          //       id: validForm.videoID,
+          //       view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
+          //       title: "START FROM HERE!",
+          //     },
+          //   ],
+          //   links: prev.links,
+          // }));
           setAllNodes((prev) => [...prev, validForm.videoID]);
 
           json.items.map((content, i) => {
@@ -144,23 +144,23 @@ const YoutubeMap: NextPage = () => {
                 },
               ],
             }));
-            setGDlog((prev) => ({
-              nodes: [
-                ...prev.nodes,
-                {
-                  id: content.id.videoId,
-                  view: content.snippet?.thumbnails.medium.url,
-                  title: content.snippet?.title,
-                },
-              ],
-              links: [
-                ...prev.links,
-                {
-                  source: validForm.videoID,
-                  target: content.id.videoId,
-                },
-              ],
-            }));
+            // setGDlog((prev) => ({
+            //   nodes: [
+            //     ...prev.nodes,
+            //     {
+            //       id: content.id.videoId,
+            //       view: content.snippet?.thumbnails.medium.url,
+            //       title: content.snippet?.title,
+            //     },
+            //   ],
+            //   links: [
+            //     ...prev.links,
+            //     {
+            //       source: validForm.videoID,
+            //       target: content.id.videoId,
+            //     },
+            //   ],
+            // }));
             setAllNodes((prev) => [...prev, content.id.videoId]);
             setNewTarget((prev) => [...prev, content.id.videoId]);
           });
@@ -198,16 +198,16 @@ const YoutubeMap: NextPage = () => {
                   },
                 ],
               }));
-              setGDlog((prev) => ({
-                nodes: prev.nodes,
-                links: [
-                  ...prev.links,
-                  {
-                    source: vId,
-                    target: content.id.videoId,
-                  },
-                ],
-              }));
+              // setGDlog((prev) => ({
+              //   nodes: prev.nodes,
+              //   links: [
+              //     ...prev.links,
+              //     {
+              //       source: vId,
+              //       target: content.id.videoId,
+              //     },
+              //   ],
+              // }));
             } else {
               setGD((prev) => ({
                 nodes: [
@@ -226,23 +226,23 @@ const YoutubeMap: NextPage = () => {
                   },
                 ],
               }));
-              setGDlog((prev) => ({
-                nodes: [
-                  ...prev.nodes,
-                  {
-                    id: content.id.videoId,
-                    view: content.snippet?.thumbnails.medium.url,
-                    title: content.snippet?.title,
-                  },
-                ],
-                links: [
-                  ...prev.links,
-                  {
-                    source: vId,
-                    target: content.id.videoId,
-                  },
-                ],
-              }));
+              // setGDlog((prev) => ({
+              //   nodes: [
+              //     ...prev.nodes,
+              //     {
+              //       id: content.id.videoId,
+              //       view: content.snippet?.thumbnails.medium.url,
+              //       title: content.snippet?.title,
+              //     },
+              //   ],
+              //   links: [
+              //     ...prev.links,
+              //     {
+              //       source: vId,
+              //       target: content.id.videoId,
+              //     },
+              //   ],
+              // }));
               setAllNodes((prev) => [...prev, content.id.videoId]);
               setNewTmpTarget((prev) => [...prev, content.id.videoId]);
             }
@@ -265,8 +265,8 @@ const YoutubeMap: NextPage = () => {
   useEffect(() => {
     // console.log(GD);
     // console.log(endTarget, newTarget, newTmpTarget);
-    console.log(GDlog);
-  }, [GDlog]);
+    console.log(GD);
+  }, [GD]);
   useEffect(() => {
     console.log(errors);
   }, [errors]);
