@@ -13,7 +13,6 @@ const handler = async (req: Query, res: NextApiResponse) => {
   try {
     const response = await fetch(
       `https://www.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${id}&type=video&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&maxResults=${maxResults}`
-      //   `https://jsonplaceholder.typicode.com/photos`
     );
     const data = await response.json();
     res.setHeader("Content-Type", "application/json");
@@ -24,3 +23,5 @@ const handler = async (req: Query, res: NextApiResponse) => {
 };
 
 export default handler;
+
+//   `https://jsonplaceholder.typicode.com/photos`

@@ -12,7 +12,8 @@ import dynamic from "next/dynamic";
 import * as THREE from "three";
 
 // import raw_data from "../../data/youtube_map/test";
-import raw_data from "../../data/youtube_map/garosero";
+// import raw_data from "../../data/youtube_map/garosero";
+import raw_data from "../../data/youtube_map/garosero_big";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -62,12 +63,16 @@ const YoutubeMap: NextPage = () => {
   const [apiState, setApiState] = useState<boolean>(true);
   const router = useRouter();
 
-  var maxResults = 1;
+  const [resultNum, setResultNum] = useState<number>(1);
   const [newTarget, setNewTarget] = useState<string[]>([]);
   const [endTarget, setEndTarget] = useState<string[]>([]);
   const [allNodes, setAllNodes] = useState<string[]>([]);
   const [newTmpTarget, setNewTmpTarget] = useState<string[]>([]);
   const [GD, setGD] = useState<GraphData>({
+    nodes: [],
+    links: [],
+  });
+  const [GDlog, setGDlog] = useState<GraphData>({
     nodes: [],
     links: [],
   });
@@ -85,9 +90,9 @@ const YoutubeMap: NextPage = () => {
     },
   });
   const onValid = async (validForm: EnterForm) => {
-    maxResults = validForm.maxResults;
+    setResultNum(validForm.maxResults);
     const json: SearchForm = await fetch(
-      `/api/json_loader?id=${validForm.videoID}&maxResults=${maxResults}`
+      `/api/json_loader?id=${validForm.videoID}&maxResults=${validForm.maxResults}`
     ).then((res) => res.json());
 
     if (json.error !== undefined) {
@@ -108,10 +113,38 @@ const YoutubeMap: NextPage = () => {
             ],
             links: prev.links,
           }));
+          setGDlog((prev) => ({
+            nodes: [
+              ...prev.nodes,
+              {
+                id: validForm.videoID,
+                view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
+                title: "START FROM HERE!",
+              },
+            ],
+            links: prev.links,
+          }));
           setAllNodes((prev) => [...prev, validForm.videoID]);
 
           json.items.map((content, i) => {
             setGD((prev) => ({
+              nodes: [
+                ...prev.nodes,
+                {
+                  id: content.id.videoId,
+                  view: content.snippet?.thumbnails.medium.url,
+                  title: content.snippet?.title,
+                },
+              ],
+              links: [
+                ...prev.links,
+                {
+                  source: validForm.videoID,
+                  target: content.id.videoId,
+                },
+              ],
+            }));
+            setGDlog((prev) => ({
               nodes: [
                 ...prev.nodes,
                 {
@@ -149,7 +182,7 @@ const YoutubeMap: NextPage = () => {
   const expandHandler = async () => {
     newTarget.map(async (vId, i) => {
       const json: SearchForm = await fetch(
-        `/api/json_loader?id=${vId}&maxResults=${maxResults}`
+        `/api/json_loader?id=${vId}&maxResults=${resultNum}`
       ).then((res) => res.json());
       try {
         if (endTarget.includes(vId) == false) {
@@ -165,8 +198,35 @@ const YoutubeMap: NextPage = () => {
                   },
                 ],
               }));
+              setGDlog((prev) => ({
+                nodes: prev.nodes,
+                links: [
+                  ...prev.links,
+                  {
+                    source: vId,
+                    target: content.id.videoId,
+                  },
+                ],
+              }));
             } else {
               setGD((prev) => ({
+                nodes: [
+                  ...prev.nodes,
+                  {
+                    id: content.id.videoId,
+                    view: content.snippet?.thumbnails.medium.url,
+                    title: content.snippet?.title,
+                  },
+                ],
+                links: [
+                  ...prev.links,
+                  {
+                    source: vId,
+                    target: content.id.videoId,
+                  },
+                ],
+              }));
+              setGDlog((prev) => ({
                 nodes: [
                   ...prev.nodes,
                   {
@@ -203,9 +263,10 @@ const YoutubeMap: NextPage = () => {
   };
 
   useEffect(() => {
-    console.log(GD);
+    // console.log(GD);
     // console.log(endTarget, newTarget, newTmpTarget);
-  }, [GD]);
+    console.log(GDlog);
+  }, [GDlog]);
   useEffect(() => {
     console.log(errors);
   }, [errors]);
@@ -309,7 +370,14 @@ const YoutubeMap: NextPage = () => {
         bottom-[5%] right-[15px] shadow-xl bg-purple-700 rounded-full 
         w-20 flex items-center justify-center text-white"
         onClick={() => {
-          const data_load: GraphData & any = raw_data;
+          raw_data;
+          var data_load: GraphData & any = raw_data;
+
+          data_load.nodes = raw_data.nodes.reduce((prev: any, now: any) => {
+            if (!prev.some((obj: any) => obj.id === now.id)) prev.push(now);
+            return prev;
+          }, []);
+
           setGD(data_load);
         }}
       >
