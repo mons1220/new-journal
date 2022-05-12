@@ -84,7 +84,6 @@ const YoutubeMap: NextPage = () => {
       maxResults: 1,
     },
   });
-
   const onValid = async (validForm: EnterForm) => {
     maxResults = validForm.maxResults;
     const json: SearchForm = await fetch(
@@ -142,6 +141,9 @@ const YoutubeMap: NextPage = () => {
         // }
       }
     }
+  };
+  const onInvalid = (errors: FieldErrors) => {
+    // console.log(errors);
   };
 
   const expandHandler = async () => {
@@ -204,14 +206,9 @@ const YoutubeMap: NextPage = () => {
     console.log(GD);
     // console.log(endTarget, newTarget, newTmpTarget);
   }, [GD]);
-
   useEffect(() => {
     console.log(errors);
   }, [errors]);
-
-  const onInvalid = (errors: FieldErrors) => {
-    // console.log(errors);
-  };
 
   return (
     <div>
