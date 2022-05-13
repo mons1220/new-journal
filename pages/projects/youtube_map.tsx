@@ -13,7 +13,8 @@ import * as THREE from "three";
 
 // import raw_data from "../../data/youtube_map/test";
 // import raw_data from "../../data/youtube_map/garosero";
-import raw_data from "../../data/youtube_map/garosero_big";
+import raw_data1 from "../../data/youtube_map/garosero_big";
+import raw_data2 from "../../data/youtube_map/dotface";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -61,6 +62,7 @@ interface SearchForm {
 const YoutubeMap: NextPage = () => {
   const [width, height] = useWindowSize();
   const [apiState, setApiState] = useState<boolean>(true);
+  const [loadState, setLoadState] = useState<number>(0);
   const router = useRouter();
 
   const [resultNum, setResultNum] = useState<number>(1);
@@ -72,10 +74,10 @@ const YoutubeMap: NextPage = () => {
     nodes: [],
     links: [],
   });
-  // const [GDlog, setGDlog] = useState<GraphData>({
-  //   nodes: [],
-  //   links: [],
-  // });
+  const [GDlog, setGDlog] = useState<GraphData>({
+    nodes: [],
+    links: [],
+  });
 
   const {
     register,
@@ -113,17 +115,17 @@ const YoutubeMap: NextPage = () => {
             ],
             links: prev.links,
           }));
-          // setGDlog((prev) => ({
-          //   nodes: [
-          //     ...prev.nodes,
-          //     {
-          //       id: validForm.videoID,
-          //       view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
-          //       title: "START FROM HERE!",
-          //     },
-          //   ],
-          //   links: prev.links,
-          // }));
+          setGDlog((prev) => ({
+            nodes: [
+              ...prev.nodes,
+              {
+                id: validForm.videoID,
+                view: `https://i.ytimg.com/vi/${validForm.videoID}/mqdefault.jpg`,
+                title: "START FROM HERE!",
+              },
+            ],
+            links: prev.links,
+          }));
           setAllNodes((prev) => [...prev, validForm.videoID]);
 
           json.items.map((content, i) => {
@@ -144,23 +146,23 @@ const YoutubeMap: NextPage = () => {
                 },
               ],
             }));
-            // setGDlog((prev) => ({
-            //   nodes: [
-            //     ...prev.nodes,
-            //     {
-            //       id: content.id.videoId,
-            //       view: content.snippet?.thumbnails.medium.url,
-            //       title: content.snippet?.title,
-            //     },
-            //   ],
-            //   links: [
-            //     ...prev.links,
-            //     {
-            //       source: validForm.videoID,
-            //       target: content.id.videoId,
-            //     },
-            //   ],
-            // }));
+            setGDlog((prev) => ({
+              nodes: [
+                ...prev.nodes,
+                {
+                  id: content.id.videoId,
+                  view: content.snippet?.thumbnails.medium.url,
+                  title: content.snippet?.title,
+                },
+              ],
+              links: [
+                ...prev.links,
+                {
+                  source: validForm.videoID,
+                  target: content.id.videoId,
+                },
+              ],
+            }));
             setAllNodes((prev) => [...prev, content.id.videoId]);
             setNewTarget((prev) => [...prev, content.id.videoId]);
           });
@@ -198,16 +200,16 @@ const YoutubeMap: NextPage = () => {
                   },
                 ],
               }));
-              // setGDlog((prev) => ({
-              //   nodes: prev.nodes,
-              //   links: [
-              //     ...prev.links,
-              //     {
-              //       source: vId,
-              //       target: content.id.videoId,
-              //     },
-              //   ],
-              // }));
+              setGDlog((prev) => ({
+                nodes: prev.nodes,
+                links: [
+                  ...prev.links,
+                  {
+                    source: vId,
+                    target: content.id.videoId,
+                  },
+                ],
+              }));
             } else {
               setGD((prev) => ({
                 nodes: [
@@ -226,23 +228,23 @@ const YoutubeMap: NextPage = () => {
                   },
                 ],
               }));
-              // setGDlog((prev) => ({
-              //   nodes: [
-              //     ...prev.nodes,
-              //     {
-              //       id: content.id.videoId,
-              //       view: content.snippet?.thumbnails.medium.url,
-              //       title: content.snippet?.title,
-              //     },
-              //   ],
-              //   links: [
-              //     ...prev.links,
-              //     {
-              //       source: vId,
-              //       target: content.id.videoId,
-              //     },
-              //   ],
-              // }));
+              setGDlog((prev) => ({
+                nodes: [
+                  ...prev.nodes,
+                  {
+                    id: content.id.videoId,
+                    view: content.snippet?.thumbnails.medium.url,
+                    title: content.snippet?.title,
+                  },
+                ],
+                links: [
+                  ...prev.links,
+                  {
+                    source: vId,
+                    target: content.id.videoId,
+                  },
+                ],
+              }));
               setAllNodes((prev) => [...prev, content.id.videoId]);
               setNewTmpTarget((prev) => [...prev, content.id.videoId]);
             }
@@ -265,8 +267,8 @@ const YoutubeMap: NextPage = () => {
   useEffect(() => {
     // console.log(GD);
     // console.log(endTarget, newTarget, newTmpTarget);
-    console.log(GD);
-  }, [GD]);
+    // console.log(GDlog);
+  }, [GDlog]);
   useEffect(() => {
     console.log(errors);
   }, [errors]);
@@ -376,8 +378,15 @@ const YoutubeMap: NextPage = () => {
         bottom-[5%] right-[15px] shadow-xl bg-purple-700 rounded-full 
         w-20 flex items-center justify-center text-white"
         onClick={() => {
-          raw_data;
-          var data_load: GraphData & any = raw_data;
+          if (loadState == 0) {
+            var raw_data = raw_data1;
+            var data_load: GraphData & any = raw_data1;
+            setLoadState(1);
+          } else {
+            var raw_data = raw_data2;
+            var data_load: GraphData & any = raw_data2;
+            setLoadState(0);
+          }
 
           // 중복 naming 삭제
           data_load.nodes = raw_data.nodes.reduce((prev: any, now: any) => {
@@ -388,7 +397,7 @@ const YoutubeMap: NextPage = () => {
           setGD(data_load);
         }}
       >
-        Load Sample
+        {loadState == 0 ? "Load Sample1" : "Load Sample2"}
       </button>
 
       {/* make DB */}
