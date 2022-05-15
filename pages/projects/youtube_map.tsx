@@ -15,6 +15,7 @@ import * as THREE from "three";
 // import raw_data from "../../data/youtube_map/garosero";
 import raw_data1 from "../../data/youtube_map/garosero_big";
 import raw_data2 from "../../data/youtube_map/dotface";
+import raw_data3 from "../../data/youtube_map/chim";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -273,6 +274,10 @@ const YoutubeMap: NextPage = () => {
     console.log(errors);
   }, [errors]);
 
+  useEffect(() => {
+    console.log(loadState);
+  }, [loadState]);
+
   return (
     <div>
       {/* make DB */}
@@ -367,7 +372,13 @@ const YoutubeMap: NextPage = () => {
             linkDirectionalParticleColor={() => "pink"}
             enableNodeDrag={false}
             linkWidth={1}
-            nodeLabel="title"
+            nodeLabel={(node: any) => {
+              if (node.title == undefined) {
+                return node.id;
+              } else {
+                return node.title;
+              }
+            }}
           />
         </div>
       </div>
@@ -382,9 +393,13 @@ const YoutubeMap: NextPage = () => {
             var raw_data = raw_data1;
             var data_load: GraphData & any = raw_data1;
             setLoadState(1);
-          } else {
+          } else if (loadState == 1) {
             var raw_data = raw_data2;
             var data_load: GraphData & any = raw_data2;
+            setLoadState(2);
+          } else {
+            var raw_data = raw_data3;
+            var data_load: GraphData & any = raw_data3;
             setLoadState(0);
           }
 
@@ -397,7 +412,11 @@ const YoutubeMap: NextPage = () => {
           setGD(data_load);
         }}
       >
-        {loadState == 0 ? "Load Sample1" : "Load Sample2"}
+        {loadState == 0
+          ? "Load Sample1"
+          : loadState == 1
+          ? "Load Sample2"
+          : "Load Sample3"}
       </button>
 
       {/* make DB */}
