@@ -8,7 +8,7 @@ import ForceGraph3D, {
 import { useWindowSize } from "@react-hook/window-size";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import raw_data_3 from "../../data/alookso_u/G_user_first_post_from_3";
+import raw_data from "../../data/alookso_u/G_user_first_post_from_3";
 import { FieldErrors, useForm } from "react-hook-form";
 
 const ForceGraph = dynamic(() => import("../../components/ForceGraph"), {
@@ -156,8 +156,8 @@ const App = () => {
         w-20 flex items-center justify-center text-white"
           onClick={() => {
             const data_load: GraphData & any = {
-              nodes: raw_data_3.nodes,
-              links: raw_data_3.links,
+              nodes: raw_data.nodes,
+              links: raw_data.links,
             };
 
             const dict_node_id: { [key: string]: number } = {};
@@ -189,7 +189,7 @@ const App = () => {
           Load
         </button>
       )}
-
+      {/* 
       <Link href="/">
         <a
           className="fixed top-[15px] left-[15px] w-20 font-medium text-purple-700
@@ -213,7 +213,7 @@ const App = () => {
             ></path>
           </svg>
         </a>
-      </Link>
+      </Link> */}
     </div>
   );
 };
