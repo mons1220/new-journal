@@ -105,7 +105,7 @@ const App = () => {
       </button>
       <Link href="/">
         <a
-          className="fixed top-[2%] left-[2%] w-20 font-medium text-purple-700
+          className="fixed top-[2%] left-[2%] w-10 font-medium text-purple-700
         hover:text-purple-500 flex items-center justify-center cursor-pointer"
           onClick={() => {
             onClick;

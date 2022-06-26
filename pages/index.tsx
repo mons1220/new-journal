@@ -71,7 +71,26 @@ const Home: NextPage = () => {
             </span>
           </div>
         </Link>
+        <Link href="/projects/your_network">
+          <div className="h-96 shadow-lg rounded-xl border-2 hover:ring-2 hover:ring-purple-700 cursor-pointer">
+            <div className="relative h-4/5 m-5">
+              <Image
+                className="rounded-xl"
+                layout="fill"
+                src="/static/images/project0_your_network.PNG"
+                alt=""
+              />
+            </div>
+            <span className="flex items-center justify-center text-lg font-medium -mt-1">
+              Visualize your network
+            </span>
+          </div>
+        </Link>
       </div>
+
+      <footer className="bg-purple-700 text-white">
+        <p className="p-2 text-right text-s">mons1220@gmail.com</p>
+      </footer>
     </div>
   );
 };
