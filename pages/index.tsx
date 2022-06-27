@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <div className="bg-purple-700">
-        <h1 className="flex justify-center text-white py-4 text-2xl">
+    <div className="flex flex-col min-h-screen ">
+      <div className="bg-purple-700  py-2">
+        <h1 className="flex justify-center text-white text-xl font-mono">
           Project Clairvoyance
         </h1>
       </div>
@@ -88,8 +88,8 @@ const Home: NextPage = () => {
         </Link>
       </div>
 
-      <footer className="bg-purple-700 text-white">
-        <p className="p-2 text-right text-s">mons1220@gmail.com</p>
+      <footer className="footer mt-auto bg-purple-700 text-white">
+        <p className="p-1 text-right text-s mr-4">mons1220@gmail.com</p>
       </footer>
     </div>
   );
